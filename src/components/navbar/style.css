@@ -1,0 +1,30 @@
+#sidenav {
+    height:100vh;
+    width: 7.5vw;
+    left:0;
+    background-color:#343a40;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
+#siteLinks, #resourceLinks {
+    display:flex;
+    flex-direction:column;
+    text-decoration: none;
+    background:white;
+    
+}
+
+#siteLinks{
+    margin-top:40vh;
+}
+
+#resourceLinks{
+    margin-top:20vh;
+}
+
+#logo{
+    height:12vh;
+    width:7.5vw;
+    background-color:lavender;
+}

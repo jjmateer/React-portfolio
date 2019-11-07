@@ -2,29 +2,46 @@
     height:100vh;
     width: 7.5vw;
     left:0;
-    background-color:#343a40;
+    background-color:white;
     position:relative;
     display:flex;
     flex-direction:column;
+    border-right:2px solid black;
 }
 #siteLinks, #resourceLinks {
     display:flex;
     flex-direction:column;
+}
+a{
     text-decoration: none;
-    background:white;
-    
 }
 
+#siteLinks a, #resourceLinks a {
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:6vh;
+    margin: 5px auto;
+    font-size:20px;
+    color:black;
+    font-size:25px;
+}
+#siteLinks a:hover, #resourceLinks a:hover{
+    transition: 0.3s;
+    color:royalblue;
+  }
 #siteLinks{
-    margin-top:40vh;
-}
-
-#resourceLinks{
     margin-top:20vh;
+}
+#resourceLinks{
+    margin-top:12.5vh;
 }
 
 #logo{
     height:12vh;
     width:7.5vw;
-    background-color:lavender;
+    color:black;
+    font-family: 'Kaushan Script', cursive;
+    text-align:center;
+    font-size:50px;
 }

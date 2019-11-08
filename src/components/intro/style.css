@@ -2,3 +2,7 @@
     width:90vw;
     margin-left:10vw;
 }
+
+#intro h1 {
+    margin:0px;
+}

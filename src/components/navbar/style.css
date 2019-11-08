@@ -1,6 +1,6 @@
 #sidenav {
     height:100vh;
-    width: 7.5vw;
+    width: 5vw;
     left:0;
     background-color:white;
     display:flex;
@@ -10,7 +10,29 @@
     margin:1px;
     position:fixed;
 }
+#topnav{
+    height:80px;
+    width:100%;
+    background-color:gray;
+    display:none;
+}
+#hamburger{
+    width:100% !important;
+}
+.bm-burger-button button {
+    height:50px !important;
+    width:100px;
+    background:blue;
+}
+#hamburger a {
+    text-align:center;
+    margin: 0 auto;
+}
 #siteLinks, #resourceLinks {
+    display:flex;
+    flex-direction:column;
+}
+#siteLinksTop, #resourceLinksTop {
     display:flex;
     flex-direction:column;
 }
@@ -19,9 +41,6 @@ a{
 }
 
 #siteLinks a, #resourceLinks a {
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position: center;
     height:6vh;
     margin: 5px auto;
     color:black;
@@ -40,9 +59,18 @@ a{
 
 #logo{
     height:12vh;
-    width:7.5vw;
+    width:5vw;
     color:black;
     font-family: 'Kaushan Script', cursive;
     text-align:center;
-    font-size:50px;
+    font-size:35px;
+}
+
+@media only screen and (max-width: 800px) {
+    #sidenav {
+        display:none;
+    }
+    #topnav{
+        display:initial;
+    }
 }

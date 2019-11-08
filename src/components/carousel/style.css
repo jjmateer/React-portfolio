@@ -1,0 +1,12 @@
+#pHeader{
+    text-align:Center;
+}
+
+.slick-slider{
+    transform:rotate(0deg);
+}
+
+.slick-list .slick-track div {
+    background:lightgray;
+    border:2px solid black;
+}

@@ -35,6 +35,7 @@ class Navbar extends Component {
                     <a id="link6top" className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
                     <Link id="link7top" className="fa fa-file-text" to="/"> </Link>
                 </Menu>
+                {/* <img id="hIcon" src="./images/hamburger-icon.svg" alt="./images/hamburger-icon.svg" /> */}
             </div >
         </div>
         )

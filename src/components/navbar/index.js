@@ -9,15 +9,15 @@ class Navbar extends Component {
                 <Link id="logo" to="/">jpm</Link>
                 <div id="siteLinks">
                     <Link id="link1" className="fa fa-fw fa-home" to="/"></Link>
-                    <Link id="link2" className="fa fa-fw fa-user" to="/"></Link>
-                    <Link id="link3" className="fa fa-briefcase" to="/" ></Link>
-                    <Link id="link4" className="fa fa-fw fa-envelope" to="/" ></Link >
+                    <Link id="link2" className="fa fa-fw fa-user" to="/about"></Link>
+                    <Link id="link3" className="fa fa-briefcase" to="/projects" ></Link>
+                    <Link id="link4" className="fa fa-fw fa-envelope" to="/contact" ></Link >
                 </div >
 
                 <div id="resourceLinks">
-                    <Link id="link5" className="fa fa-github" to="/"></Link>
-                    <Link id="link6" className="fa fa-linkedin" to="/"></Link>
-                    <Link id="link7" className="fa fa-file-text" to="/"></Link>
+                    <a id="link5" className="fa fa-github" href="https://github.com/jjmateer"> </a>
+                    <a id="link6" className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
+                    <Link id="link7" className="fa fa-file-text" to="/"> </Link>
                 </div>
             </div >
         )

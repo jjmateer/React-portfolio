@@ -1,0 +1,8 @@
+#contactForm {
+    width:50vw;
+    height:50vh;
+    margin:Auto;
+    background:lightgray;
+    display: flex;
+    flex-direction: column;
+}

@@ -4,7 +4,7 @@ import "./style.css";
 function Intro() {
     return (
         <div id="intro">
-            <h1>About Me</h1>
+            <h1 className="mainH">About Me</h1>
             <p>Hello! My name is John, but I go by JJ. I am a fast learning web developer based in Sacramento, CA.
                 I enjoy using new technology, cooking, and tinkering with computers & cars. Currently, I'm attending
                 a full-stack coding bootcamp at UC Davis and creating lots of great web applications with a variety of

@@ -5,11 +5,11 @@ import "./style.css";
 export default class Carousel extends Component {
     render() {
         var settings = {
-            dots: true,
+            dots: false,
             infinite: true,
             speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToShow: 3,
+            slidesToScroll: 3,
             initialSlide: 0,
             responsive: [
                 {
@@ -18,7 +18,7 @@ export default class Carousel extends Component {
                         slidesToShow: 3,
                         slidesToScroll: 3,
                         infinite: true,
-                        dots: true
+                        dots: false
                     }
                 },
                 {
@@ -40,7 +40,7 @@ export default class Carousel extends Component {
         };
         return (
             <div>
-                <h2 id="pHeader"> Projects</h2>
+                <h1 className="mainH"> Projects</h1>
                 <Slider {...settings}>
                     <div>
                         <h3>1</h3>

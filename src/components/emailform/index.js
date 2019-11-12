@@ -1,18 +1,20 @@
 import React from "react";
 import "./style.css";
 
-function EmailForm({ handleInputChange, handleFormSubmit }) {
+function EmailForm() {
     return (
-        <form id="contactForm" method="POST" action="send">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/jj.mateer@live.com" method="post">
             <h1 className="mainH">Contact</h1>
-            <span className="contactlabels">Name</span>
-            <input required className="formInputs" placeholder="Ex: John Johnson" id="name" />
-            <span className="contactlabels">Email</span>
-            <input required className="formInputs" placeholder="Ex: name@email.com" id="email" />
-            <span className="contactlabels">Message</span>
-            <textarea required className="formInputs" placeholder="Enter message here..." id="message"></textarea>
-            <button id="submitBtn" type="submit">Send</button>
+            <label className="contactLabels" for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required></input>
+            <label className="contactLabels" for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="example@email.com" required></input>
+            <label className="contactLabels" for="message">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Your message here..." required></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
+            <input type="submit" id="submitBtn" value="Submit"></input>
         </form>
+
     )
 }
 

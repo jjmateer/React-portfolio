@@ -6,12 +6,17 @@
 }
 *{
   font-family: 'Merienda One', cursive;
+  outline:none;
+  text-decoration: none;
+  color:black;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+  padding:0;
 }
 
 .mainH {
   text-align:center;
   padding-top:5vh;
-  padding-bottom:10vh;
+  padding-bottom:5vh;
   margin:auto;
   font-size:50px;
 }

@@ -1,8 +1,28 @@
-#intro{
-    width:80vw;
-    margin:auto;
+#intro {
+  width: 80vw;
+  margin: auto;
 }
 
-#intro p {
-    font-size: 30px;
+#intro p,
+.skill {
+  font-size: 30px;
+}
+
+.tSkills {
+  position: relative;
+  height: auto;
+  display: flex;
+  margin:auto;
+  padding:auto;
+}
+
+.tSkills div {
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .skill {
+        font-size: 20px;
+      }
 }

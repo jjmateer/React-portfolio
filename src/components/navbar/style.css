@@ -19,11 +19,13 @@
 #hamburger{
     width:100% !important;
     background:lightgray !important;
+    margin-top:10px !important;
 }
 .bm-burger-button button {
     height:50px !important;
     width:100px;
-    background:white !important;
+    background:transparent !important;
+    z-index:1100;
     border-bottom:2px solid black !important;
 }
 .bm-cross-button button {
@@ -79,13 +81,27 @@ a{
     }
     #topnav{
         display:initial;
+        z-index:1100;
+        background:transparent;
+        position:static;
     }
     #logo{
         position:Fixed;
         width:auto;
         height:auto;
         line-height:110%;
-        z-index:1101;
         margin-left:10px;
+        position:static;
+        z-index:2000;
+    }
+    #hIcon {
+        position:fixed;
+        right:0;
+        margin-top:20px;
+        margin-right:20px;
+        background-image:"./images/hamburger-icon";
+        z-index:10;
+        float:right;
+        position:static;
     }
 }

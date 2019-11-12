@@ -26,6 +26,7 @@ class Navbar extends Component {
             </div >
             <div id="topnav">
                 <Link id="logo" to="/">jpm</Link>
+                <i id="hIcon" class="fa fa-bars" aria-hidden="true"></i>
                 <Menu noOverlay id="hamburger">
                     <Link id="link1top" className="fa fa-fw fa-home" to="/"></Link>
                     <Link id="link2top" className="fa fa-fw fa-user" to="/about"></Link>
@@ -35,7 +36,6 @@ class Navbar extends Component {
                     <a id="link6top" className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
                     <Link id="link7top" className="fa fa-file-text" to="/"> </Link>
                 </Menu>
-                {/* <img id="hIcon" src="./images/hamburger-icon.svg" alt="./images/hamburger-icon.svg" /> */}
             </div >
         </div>
         )

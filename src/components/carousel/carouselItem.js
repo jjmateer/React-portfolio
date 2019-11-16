@@ -7,8 +7,8 @@ function CarouselItem(props) {
             <h2 className="project-name">{props.title}</h2>
             <div className="description">{props.description}</div>
             <div id="link-container">
-                {props.codelink ? <a className="code-link" href={props.codelink}>Code</a> : <p className="code-link">No code available.</p>}
-                {props.demolink ? <a className="demo-link" href={props.demolink}>Demo</a> : <p className="demo-link">No demo available.</p>}
+                {props.codelink ? <a className="code-link" href={props.codelink}>Code</a> : <p className="code-linkNA">N/A</p>}
+                {props.demolink ? <a className="demo-link" href={props.demolink}>Demo</a> : <p className="demo-linkNA">N/A</p>}
             </div>
             {/* <div className="description-mobile">{props.description}</div> */}
             <img className="project-image" src={props.image} alt={props.image}></img>

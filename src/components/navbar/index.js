@@ -4,6 +4,21 @@ import { slide as Menu } from 'react-burger-menu'
 import "./style.css";
 
 class Navbar extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            menuOpen: false
+        }
+    }
+    handleStateChange(state) {
+        this.setState({ menuOpen: state.isOpen })
+    }
+    closeMenu() {
+        this.setState({ menuOpen: false })
+    }
+    toggleMenu() {
+        this.setState(state => ({ menuOpen: !state.menuOpen }))
+    }
     render() {
         return (
             <div>
@@ -25,14 +40,15 @@ class Navbar extends Component {
                 <div id="topnav">
                     <Link id="logo" to="/">jpm</Link>
                     <i id="hIcon" className="fa fa-bars" aria-hidden="true"></i>
-                    <Menu noOverlay id="hamburger">
-                        <a className="fa fa-fw fa-home" href="/"> </a>
-                        <a className="fa fa-fw fa-user" href="/about"> </a>
-                        <a className="fa fa-briefcase" href="/projects" > </a>
-                        <a className="fa fa-fw fa-envelope" href="/contact" > </a >
-                        <a className="fa fa-github" href="https://github.com/jjmateer"> </a>
-                        <a className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
-                        <a className="fa fa-file-text" href="/"> </a>
+                    <Menu noOverlay isOpen={this.state.menuOpen}
+                        onStateChange={(state) => this.handleStateChange(state)} id="hamburger">
+                        <Link onClick={() => this.toggleMenu()} className="fa fa-fw fa-home" to="/"> </Link>
+                        <Link onClick={() => this.toggleMenu()} className="fa fa-fw fa-user" to="/about"> </Link>
+                        <Link onClick={() => this.toggleMenu()} className="fa fa-briefcase" to="/projects" > </Link>
+                        <Link onClick={() => this.toggleMenu()} className="fa fa-fw fa-envelope" to="/contact" > </Link>
+                        <a onClick={() => this.toggleMenu()} className="fa fa-github" href="https://github.com/jjmateer"> </a>
+                        <a onClick={() => this.toggleMenu()} className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
+                        <a onClick={() => this.toggleMenu()} className="fa fa-file-text" href="/"> </a>
                     </Menu>
                 </div >
             </div>

@@ -47,3 +47,10 @@
     border:solid black;
     border-radius:4px;
   }
+
+  @media only screen and (max-width: 800px) {
+    .contactLabels {
+      font-size:30px;
+    }
+
+  }

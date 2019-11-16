@@ -57,7 +57,7 @@ a{
 }
 #siteLinks a:hover, #resourceLinks a:hover{
     transition: 0.3s;
-    color:darkred;
+    color:royalblue;
   }
 #siteLinks{
     margin-top:20vh;

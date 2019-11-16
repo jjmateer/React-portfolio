@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import projects from "./projects.json"
+import CarouselItem from "./carouselItem";
 import "./style.css";
 
 export default class Carousel extends Component {
+    state = {
+        projects
+    }
     render() {
         var settings = {
             dots: false,
@@ -42,30 +47,17 @@ export default class Carousel extends Component {
             <div>
                 <h1 className="mainH"> Projects</h1>
                 <Slider {...settings}>
-                    <div>
-                        <h3>1</h3>
-                    </div>
-                    <div>
-                        <h3>2</h3>
-                    </div>
-                    <div>
-                        <h3>3</h3>
-                    </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
-                    <div>
-                        <h3>7</h3>
-                    </div>
-                    <div>
-                        <h3>8</h3>
-                    </div>
+                        {this.state.projects.map(project => (
+                            <CarouselItem
+                                key={project.id}
+                                id={project.id}
+                                title={project.title}
+                                codelink={project.codelink}
+                                demolink={project.demolink}
+                                description={project.description}
+                                image={project.image}
+                            />
+                        ))}
                 </Slider>
             </div>
         );

@@ -7,6 +7,7 @@ import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import "./App.css";
 
+
 class App extends Component {
   render() {
     return (

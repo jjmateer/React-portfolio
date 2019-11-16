@@ -1,0 +1,26 @@
+[
+{
+    "id": 1,
+    "title": "The Social Network",
+    "codelink": "https://github.com/Guhuyan/Project-2",
+    "demolink": "https://tranquil-wave-24974.herokuapp.com/",
+    "description": "Node-Express application where users can create an account/login, make posts which display on the dashboard, and chat with others. Uses MongoDB to store chatroom messages and MySQL/Sequelize to store user info/posts. Features hashed passwords with bcrypt, real time live chat using socket.io, and persistent login using express-session.",
+    "image": "/images/TSN.png"
+},
+{
+    "id": 2,
+    "title": "Realtech Storefront",
+    "codelink": "https://github.com/jjmateer/Project-3",
+    "demolink": null,
+    "description": "MERN stack storefront which allows users can create an account, log in, browse fake inventory, save products to cart, and check out. User authentication made with JSON Web Tokens and bcrypt. Uses redux for state management.",
+    "image": "/images/TSN.png"
+},
+{
+    "id": 3,
+    "title": "NYT World News Scraper",
+    "codelink": "https://github.com/jjmateer/NYT-Scraper",
+    "demolink": "https://quiet-shore-70480.herokuapp.com/",
+    "description": "Node-Express application which uses cheerio to scrape the world news section of the New York Times website. Stores all of the articles & notes on MongoDB and uses handlebars to dynamically render the information. Users can save articles of their choice, leave notes for them, and retrieve previously deleted notes.",
+    "image": "/images/TSN.png"
+}
+]

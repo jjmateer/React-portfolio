@@ -22,5 +22,22 @@
     "demolink": "https://quiet-shore-70480.herokuapp.com/",
     "description": "Node-Express application which uses cheerio to scrape the world news section of the New York Times website. Stores all of the articles & notes on MongoDB and uses handlebars to dynamically render the information. Users can save articles of their choice, leave notes for them, and retrieve previously deleted notes.",
     "image": "https://user-images.githubusercontent.com/50982277/67139032-371bc780-f200-11e9-9442-29f896d29558.png"
+},
+{
+    "id": 4,
+    "title": "Google Books Search",
+    "codelink": "https://github.com/jjmateer/Google-Books-Search",
+    "demolink": "https://frozen-woodland-04984.herokuapp.com/",
+    "description": "MERN stack application which searches the Google Books API and allows users save them to a list for later viewing or visit the original link. ",
+    "image": "https://user-images.githubusercontent.com/50982277/69002471-c3bfb100-08a4-11ea-91cd-f116c27b7f4e.png"
+},
+{
+    "id": 5,
+    "title": "React Click Game",
+    "codelink": "https://github.com/jjmateer/React-Click-Game",
+    "demolink": "https://vibrant-hodgkin-5c7465.netlify.com/",
+    "description": "A simple game built with react where users will try to click a unique tile until they reach the max score. If the same tile is clicked more than once, the score will reset.",
+    "image": "https://user-images.githubusercontent.com/50982277/68252370-35147f80-ffda-11e9-942f-db2a3ffb85ba.png"
 }
+
 ]

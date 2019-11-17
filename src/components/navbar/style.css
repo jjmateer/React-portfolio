@@ -18,8 +18,10 @@
 }
 #hamburger{
     width:100% !important;
+    height:110% !important;
+    margin-top:-10% !important;
     background:lightgray !important;
-    margin-top:10px !important;
+    z-index:1101 !important;
 }
 .bm-burger-button button {
     height:50px !important;
@@ -32,10 +34,13 @@
     background-image:url(./images/close.svg) !important;
 }
 #hamburger a {
+    font-family: 'Merienda One', cursive;
     text-align:center;
     margin: 0 auto;
     height:10px;
+    width:150px;
     margin-top:50px;
+    font-size:20px;
 }
 #siteLinks, #resourceLinks {
     display:flex;
@@ -78,6 +83,17 @@ a{
 .bm-burger-bars {
     display:none !important;
 }
+@media only screen and (max-width: 1025px) {
+    #sidenav {
+        width:8vw;  
+    }
+    #logo{
+        margin:auto;
+        margin-top:0;
+    }
+    
+}
+
 
 @media only screen and (max-width: 800px) {
     #sidenav {
@@ -108,4 +124,5 @@ a{
         float:right;
         position:static;
     }
+
 }

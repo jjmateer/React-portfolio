@@ -25,8 +25,7 @@ class Navbar extends Component {
                 <div id="sidenav">
                     <Link id="logo" to="/">jpm</Link>
                     <div id="siteLinks">
-                        <Link id="link1" className="fa fa-fw fa-home" to="/"></Link>
-                        <Link id="link2" className="fa fa-fw fa-user" to="/about"></Link>
+                        <Link id="link1" className="fa fa-fw fa-user" to="/"></Link>
                         <Link id="link3" className="fa fa-briefcase" to="/projects" ></Link>
                         <Link id="link4" className="fa fa-fw fa-envelope" to="/contact" ></Link >
                     </div >
@@ -42,13 +41,12 @@ class Navbar extends Component {
                     <i id="hIcon" className="fa fa-bars" aria-hidden="true"></i>
                     <Menu noOverlay isOpen={this.state.menuOpen}
                         onStateChange={(state) => this.handleStateChange(state)} id="hamburger">
-                        <Link onClick={() => this.toggleMenu()} className="fa fa-fw fa-home" to="/"> </Link>
-                        <Link onClick={() => this.toggleMenu()} className="fa fa-fw fa-user" to="/about"> </Link>
-                        <Link onClick={() => this.toggleMenu()} className="fa fa-briefcase" to="/projects" > </Link>
-                        <Link onClick={() => this.toggleMenu()} className="fa fa-fw fa-envelope" to="/contact" > </Link>
-                        <a onClick={() => this.toggleMenu()} className="fa fa-github" href="https://github.com/jjmateer"> </a>
-                        <a onClick={() => this.toggleMenu()} className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
-                        <a onClick={() => this.toggleMenu()} className="fa fa-file-text" href="/"> </a>
+                        <Link onClick={() => this.toggleMenu()} to="/">About Me</Link>
+                        <Link onClick={() => this.toggleMenu()} to="/projects" >Projects</Link>
+                        <Link onClick={() => this.toggleMenu()} to="/contact" >Contact</Link>
+                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer">GitHub</a>
+                        <a onClick={() => this.toggleMenu()} href="https://linkedin.com/in/john-mateer">LinkedIn</a>
+                        <a onClick={() => this.toggleMenu()} href="/">Resume</a>
                     </Menu>
                 </div >
             </div>

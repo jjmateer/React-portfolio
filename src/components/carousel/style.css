@@ -5,11 +5,11 @@
 .slick-list{
     width:80vw;
     margin:auto;
-    margin-top:15vh
+    margin-top:5vh
 }
 
 .slick-list .slick-track div {
-    height:50vh;
+    height:60vh;
     background:lightgray;
 }
 
@@ -19,6 +19,7 @@
 
 .project-name{
     text-align: center;
+    font-size:2.5vh;
 }
 
 .code-link, .demo-link{
@@ -54,8 +55,9 @@
     flex-direction: column;
 }
 
-.project-description{
+.description{
     height:15vh;
+    font-size:1.5vh;
 }
 
 .project-image {
@@ -67,7 +69,7 @@
 @media only screen and (max-width: 1025px) {
     .project-image{
         width:100%;
-        height:auto;
+        height:10vh;
     }
     .slick-list .slick-track div {
         height:40vh;
@@ -75,10 +77,12 @@
     .slick-list{
         width:85vw;
         margin:auto;
-        margin-top:15vh
+        margin-top:15vh;
+        margin-left:10vw;
     }
     .project-name{
         font-size:20px;
+        height:100px;
     }
 }
 

@@ -25,15 +25,15 @@ class Navbar extends Component {
                 <div id="sidenav">
                     <Link id="logo" to="/">jpm</Link>
                     <div id="siteLinks">
-                        <Link id="link1" className="fa fa-fw fa-user" to="/"></Link>
-                        <Link id="link3" className="fa fa-briefcase" to="/projects" ></Link>
-                        <Link id="link4" className="fa fa-fw fa-envelope" to="/contact" ></Link >
+                        <Link className="fa fa-fw fa-user" to="/"></Link>
+                        <Link className="fa fa-briefcase" to="/projects" ></Link>
+                        <Link className="fa fa-fw fa-envelope" to="/contact" ></Link >
                     </div >
 
                     <div id="resourceLinks">
-                        <a id="link5" className="fa fa-github" href="https://github.com/jjmateer"> </a>
-                        <a id="link6" className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
-                        <Link id="link7" className="fa fa-file-text" to="/"> </Link>
+                        <a className="fa fa-github" href="https://github.com/jjmateer"> </a>
+                        <a className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
+                        <a className="fa fa-file-text" href="https://github.com/jjmateer/Project-3/files/3856265/Resume.pdf"> </a>
                     </div>
                 </div >
                 <div id="topnav">
@@ -46,7 +46,7 @@ class Navbar extends Component {
                         <Link onClick={() => this.toggleMenu()} to="/contact" >Contact</Link>
                         <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer">GitHub</a>
                         <a onClick={() => this.toggleMenu()} href="https://linkedin.com/in/john-mateer">LinkedIn</a>
-                        <a onClick={() => this.toggleMenu()} href="/">Resume</a>
+                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer/Project-3/files/3856265/Resume.pdf">Resume</a>
                     </Menu>
                 </div >
             </div>

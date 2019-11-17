@@ -99,7 +99,7 @@ a{
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 813px) {
     #sidenav {
         display:none;
     }

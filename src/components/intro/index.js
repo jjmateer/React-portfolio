@@ -7,7 +7,7 @@ function Intro() {
             <h1 className="mainH">About Me</h1>
             <p>I am a fast learning web developer based in Sacramento, CA. Enjoy using new technology, cooking, 
                 and tinkering with computers/cars. Recently completed the UC Davis full-stack coding bootcamp.</p>
-                    <h1 className="mainH">Technical skills</h1>
+                    <h1 id="tsheader" className="mainH">Technical skills</h1>
                     <ul className="tSkills">
                         <div>
                         <li className="skill">HTML5</li>

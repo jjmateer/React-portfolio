@@ -33,7 +33,7 @@ class Navbar extends Component {
                     <div id="resourceLinks">
                         <a className="fa fa-github" href="https://github.com/jjmateer"> </a>
                         <a className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
-                        <a className="fa fa-file-text" href="https://github.com/jjmateer/Project-3/files/3856265/Resume.pdf"> </a>
+                        <a className="fa fa-file-text" href="https://github.com/jjmateer/React-portfolio/files/3856270/Resume.pdf"> </a>
                     </div>
                 </div >
                 <div id="topnav">
@@ -46,7 +46,7 @@ class Navbar extends Component {
                         <Link onClick={() => this.toggleMenu()} to="/contact" >Contact</Link>
                         <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer">GitHub</a>
                         <a onClick={() => this.toggleMenu()} href="https://linkedin.com/in/john-mateer">LinkedIn</a>
-                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer/Project-3/files/3856265/Resume.pdf">Resume</a>
+                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer/React-portfolio/files/3856270/Resume.pdf">Resume</a>
                     </Menu>
                 </div >
             </div>

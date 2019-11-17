@@ -11,18 +11,37 @@
 .tSkills {
   position: relative;
   height: auto;
+  width: 40vw;
   display: flex;
-  margin:auto;
-  padding:auto;
+  margin: auto;
+  padding: auto;
 }
+
 
 .tSkills div {
-    margin: auto;
+  margin: auto;
 }
 
+@media only screen and (max-width: 1025px) {
+  .tSkills {
+    width: 80vw;
+  }
+  #tsheader {
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 813px) {
+  .tSkills {
+    width: 80vw;
+  }
+  #tsheader {
+    padding: 5px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
-    .skill {
-        font-size: 20px;
-      }
+  .skill {
+    font-size:20px;
+  }
 }

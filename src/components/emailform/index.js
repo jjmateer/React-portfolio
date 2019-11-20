@@ -12,6 +12,7 @@ function EmailForm() {
             <label className="contactLabels" htmlFor="message">Message</label>
             <textarea rows="5" name="message" id="message" placeholder="Your message here..." required></textarea>
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
+            <input type="hidden" name="_next" value="https://react-slick.neostack.com/docs/example/custom-arrows/" />
             <input type="submit" id="submitBtn" value="Submit"></input>
         </form>
 

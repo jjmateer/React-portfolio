@@ -4,7 +4,7 @@
         "title": "The Social Network",
         "codelink": "https://github.com/Guhuyan/Project-2",
         "demolink": "https://tranquil-wave-24974.herokuapp.com/",
-        "description": "Node-Express application where users can create an account/login, make posts which display on the dashboard, and chat with others. Uses MongoDB for live chat and MySQL/Sequelize to store user info/posts. Features real time live chat using socket.io, and persistent login with express-session.",
+        "description": "Node-Express application where users can create an account/login, make posts which display on the dashboard, and chat with others. I was assigned to work on the back-end.",
         "image": "https://user-images.githubusercontent.com/50982277/68998722-0d8ba580-086b-11ea-8075-dc77c2fe3cc4.png"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Realtech Storefront (In progress)",
         "codelink": "https://github.com/jjmateer/Project-3",
         "demolink": null,
-        "description": "MERN stack storefront which allows users can create an account, log in, browse fake inventory, save products to cart, and check out. User authentication made with JSON Web Tokens and bcrypt. Uses redux for state management.",
+        "description": "MERN stack  which allows users can create an account/log in, browse fake inventory, save products to cart, and check out. I am in charge of implementing redux, authentication, and routing.",
         "image": "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
     },
     {
@@ -20,7 +20,7 @@
         "title": "NYT World News Scraper",
         "codelink": "https://github.com/jjmateer/NYT-Scraper",
         "demolink": "https://quiet-shore-70480.herokuapp.com/",
-        "description": "Node-Express application which uses cheerio to scrape the world news section of the New York Times website. Stores all of the articles & notes on MongoDB and uses handlebars to dynamically render the information. Users can save articles of their choice, leave notes for them, and retrieve previously deleted notes.",
+        "description": "Node-Express application which scrapes article information from the world news section of the New York Times website. Users can save articles of their choice, take notes, and retrieve previously deleted notes.",
         "image": "https://user-images.githubusercontent.com/50982277/67139032-371bc780-f200-11e9-9442-29f896d29558.png"
     },
     {

@@ -18,7 +18,7 @@ export default class Carousel extends Component {
             initialSlide: 0,
             responsive: [
                 {
-                    breakpoint: 1081,
+                    breakpoint: 1441,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,

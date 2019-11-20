@@ -139,7 +139,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 815px) {
     .description{
         font-size:1.5vh;
         padding-top:25px;
@@ -165,11 +165,11 @@
         height:50px;
     }
     .project-image{
-        height:35vh;
-        width:100%;
+        height:25vh;
+        width:60%;
      }
      .description {
-         padding:0;
+         padding:5px;
          font-size:2.75vh;
      }
      .code-link, .demo-link, .demo-linkNA, .code-linkNA {

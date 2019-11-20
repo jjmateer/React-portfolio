@@ -93,7 +93,7 @@
 
 @media only screen and (max-width: 800px) {
     .description{
-        font-size:15px;
+        font-size:1.5vh;
         padding-top:25px;
     }
     .project-image{
@@ -144,8 +144,5 @@
      }
      .code-link, .demo-link, .demo-linkNA, .code-linkNA {
          font-size: 2.75vh;
-     }
-     .bm-item-list{
-         margin-bottom:
      }
 }

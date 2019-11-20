@@ -54,3 +54,22 @@
     }
 
   }
+
+  @media only screen and (max-width: 1025px) and (orientation: landscape) {
+    .contactLabels {
+      font-size:30px;
+    }
+  }
+
+  @media only screen and (max-width: 813px) and (orientation: landscape) {
+    .contactLabels {
+      font-size:15px;
+    }
+    #full-name, #email-address, #message, #submitBtn{
+      font-size:15px;
+    }
+    #submitBtn {
+      height:30px;
+      margin-top:10px;
+    }
+  }

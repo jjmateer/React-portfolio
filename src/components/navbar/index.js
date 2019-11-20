@@ -46,7 +46,7 @@ class Navbar extends Component {
                         <Link onClick={() => this.toggleMenu()} to="/contact" >Contact</Link>
                         <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer">GitHub</a>
                         <a onClick={() => this.toggleMenu()} href="https://linkedin.com/in/john-mateer">LinkedIn</a>
-                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer/React-portfolio/files/3856270/Resume.pdf">Resume</a>
+                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer/React-portfolio/files/3871876/JPM-Resume.pdf">Resume</a>
                     </Menu>
                 </div >
             </div>

@@ -18,10 +18,10 @@ export default class Carousel extends Component {
             initialSlide: 0,
             responsive: [
                 {
-                    breakpoint: 1024,
+                    breakpoint: 1081,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
                         infinite: true,
                         dots: false
                     }
@@ -47,17 +47,17 @@ export default class Carousel extends Component {
             <div>
                 <h1 className="mainH"> Projects</h1>
                 <Slider {...settings}>
-                        {this.state.projects.map(project => (
-                            <CarouselItem
-                                key={project.id}
-                                id={project.id}
-                                title={project.title}
-                                codelink={project.codelink}
-                                demolink={project.demolink}
-                                description={project.description}
-                                image={project.image}
-                            />
-                        ))}
+                    {this.state.projects.map(project => (
+                        <CarouselItem
+                            key={project.id}
+                            id={project.id}
+                            title={project.title}
+                            codelink={project.codelink}
+                            demolink={project.demolink}
+                            description={project.description}
+                            image={project.image}
+                        />
+                    ))}
                 </Slider>
             </div>
         );

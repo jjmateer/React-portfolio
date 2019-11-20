@@ -70,6 +70,29 @@
     height:25vh;
     margin:auto;
 }
+@media only screen and (min-width: 1025px) and (orientation: portrait) {
+    #logo{
+        font-size:2.75vh
+    }
+    .project-image{
+        width:100%;
+        height:auto;
+    }
+
+    .slick-list .slick-track div {
+        height:45vh;
+    }
+
+    .project-name{
+        font-size:2vh;
+    }
+    .description{
+        font-size:1.2vh;
+    }
+    .code-link, .demo-link, .code-linkNA, .demo-linkNA {
+        font-size:1vh;
+    }
+}
 
 @media only screen and (max-width: 1025px) {
     .project-image{

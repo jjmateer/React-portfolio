@@ -83,6 +83,15 @@ a{
 .bm-burger-bars {
     display:none !important;
 }
+@media only screen and (min-width: 1025px) and (orientation: portrait) {
+    #sidenav {
+        width:8vw;
+    }
+    #logo{
+        font-size:2vh;
+        margin-left:5px;
+      }
+}
 @media only screen and (max-width: 1025px) {
     #sidenav {
         width:9vw;  

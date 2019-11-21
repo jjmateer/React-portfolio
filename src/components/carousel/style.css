@@ -157,19 +157,15 @@
     }
 }
 @media only screen and (max-width: 815px) and (orientation:landscape) {
-    #project, .slick-list {
-        margin:auto;
-    }
     .project-name{
         font-size:2vw;
-        height:50px;
+        height:10px;
     }
     .project-image{
-        height:25vh;
-        width:60%;
+        height:15vh;
+        width:40%;
      }
      .description {
-         padding:5px;
          font-size:2.75vh;
      }
      .code-link, .demo-link, .demo-linkNA, .code-linkNA {

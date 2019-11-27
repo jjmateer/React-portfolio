@@ -1,8 +1,10 @@
 import React from "react";
+import AbsoluteWrap from "../absolute-wrap";
 import "./style.css";
 
 function EmailForm() {
     return (
+        <AbsoluteWrap>
         <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/jj.mateer@live.com" method="post">
             <h1 className="mainH">Contact</h1>
             <label className="contactLabels" htmlFor="full-name">Full Name</label>
@@ -15,7 +17,7 @@ function EmailForm() {
             <input type="hidden" name="_next" value="https://react-slick.neostack.com/docs/example/custom-arrows/" />
             <input type="submit" id="submitBtn" value="Submit"></input>
         </form>
-
+        </AbsoluteWrap>
     )
 }
 

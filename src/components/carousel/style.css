@@ -75,7 +75,7 @@
 }
 @media only screen and (min-width: 2570px) {
     .code-link, .demo-link, .code-linkNA, .demo-linkNA {
-        font-size:2vh;
+        font-size:50px;
     }
 }
 @media only screen and (min-width: 1030px) and (orientation: portrait) {

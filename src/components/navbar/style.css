@@ -22,6 +22,7 @@
     margin-top:-10% !important;
     background:lightgray !important;
     z-index:1101 !important;
+    position:absolute !important;
 }
 .bm-burger-button button {
     height:50px !important;

@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React, { Component, useContext } from "react";
+import { Switch, Route, __RouterContext } from "react-router-dom";
+import { useTransition, animated } from "react-spring";
 import Navbar from "../src/components/navbar";
 import About from "./pages/about";
 import Projects from "./pages/projects";
@@ -7,21 +8,29 @@ import Contact from "./pages/contact";
 import "./App.css";
 
 
-class App extends Component {
-  render() {
+const App = () => {
+    const { location } = useContext(__RouterContext);
+    const transitions = useTransition(location, location => location.pathname, {
+      from: { opacity: 0, transform: "translate(100%, 0)" },
+      enter: { opacity: 1, transform: "translate(0%, 0)" },
+      leave: { opacity: 0, transform: "translate(-50%, 0)" }
+    });
     return (
-      <Router>
-        <div>
-          <Navbar />
-          <Switch>
+      <>
+        <Navbar />
+      <main className="container-fluid">
+        {transitions.map(({ item, props, key }) => (
+          <animated.div key={key} style={props}>
+          <Switch location={item}>
             <Route exact path="/" component={About} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
-        </div>
-      </Router>
+          </animated.div>
+        ))}
+      </main>
+    </>
     );
-  }
 }
 
 export default App;

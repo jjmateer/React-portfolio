@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import projects from "./projects.json"
 import CarouselItem from "./carouselItem";
+import AbsoluteWrap from "../absolute-wrap";
 import "./style.css";
 
 export default class Carousel extends Component {
@@ -44,7 +45,7 @@ export default class Carousel extends Component {
             ]
         };
         return (
-            <div>
+            <AbsoluteWrap>
                 <h1 className="mainH"> Projects</h1>
                 <Slider {...settings}>
                     {this.state.projects.map(project => (
@@ -59,7 +60,7 @@ export default class Carousel extends Component {
                         />
                     ))}
                 </Slider>
-            </div>
+            </AbsoluteWrap>
         );
     }
 }

@@ -58,6 +58,7 @@
 #project {
     display:flex;
     flex-direction: column;
+    border-left:1px solid black;
 }
 
 .description{
@@ -71,6 +72,11 @@
     width:90%;
     height:25vh;
     margin:auto;
+}
+@media only screen and (min-width: 2570px) {
+    .code-link, .demo-link, .code-linkNA, .demo-linkNA {
+        font-size:2vh;
+    }
 }
 @media only screen and (min-width: 1030px) and (orientation: portrait) {
     #logo{

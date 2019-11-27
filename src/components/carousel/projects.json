@@ -1,4 +1,22 @@
+
 [
+    {
+        "id": 2,
+        "title": "Realtech Storefront",
+        "codelink": "https://github.com/jjmateer/Project-3",
+        "demolink": "https://sleepy-caverns-29266.herokuapp.com/",
+        "description": "MERN stack application that allows users can create an account/log in, browse fake inventory, save products to cart, and check out. I was in charge of redux, authentication, routing, and implementing product sliders.",
+        "image": "https://user-images.githubusercontent.com/50982277/69692619-77842600-1087-11ea-9693-ed74e74cd917.png"
+    },
+    {
+        "id": 4,
+        "title": "Google Books Search",
+        "codelink": "https://github.com/jjmateer/Google-Books-Search",
+        "demolink": "https://frozen-woodland-04984.herokuapp.com/",
+        "description": "MERN stack application that searches the Google Books API and allows users save them to a list for later viewing or visit the original link. ",
+        "image": "https://user-images.githubusercontent.com/50982277/69002471-c3bfb100-08a4-11ea-91cd-f116c27b7f4e.png"
+        
+    },
     {
         "id": 1,
         "title": "The Social Network",
@@ -8,28 +26,12 @@
         "image": "https://user-images.githubusercontent.com/50982277/68998722-0d8ba580-086b-11ea-8075-dc77c2fe3cc4.png"
     },
     {
-        "id": 2,
-        "title": "Realtech Storefront (In progress)",
-        "codelink": "https://github.com/jjmateer/Project-3",
-        "demolink": null,
-        "description": "MERN stack  which allows users can create an account/log in, browse fake inventory, save products to cart, and check out. I am in charge of implementing redux, authentication, and routing.",
-        "image": "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-    },
-    {
         "id": 3,
         "title": "NYT World News Scraper",
         "codelink": "https://github.com/jjmateer/NYT-Scraper",
         "demolink": "https://quiet-shore-70480.herokuapp.com/",
-        "description": "Node-Express application which scrapes article information from the world news section of the New York Times website. Users can save articles of their choice, take notes, and retrieve previously deleted notes.",
+        "description": "Node-Express application that scrapes article information from the world news section of the New York Times website. Users can save articles of their choice, take notes, and retrieve previously deleted notes.",
         "image": "https://user-images.githubusercontent.com/50982277/67139032-371bc780-f200-11e9-9442-29f896d29558.png"
-    },
-    {
-        "id": 4,
-        "title": "Google Books Search",
-        "codelink": "https://github.com/jjmateer/Google-Books-Search",
-        "demolink": "https://frozen-woodland-04984.herokuapp.com/",
-        "description": "MERN stack application which searches the Google Books API and allows users save them to a list for later viewing or visit the original link. ",
-        "image": "https://user-images.githubusercontent.com/50982277/69002471-c3bfb100-08a4-11ea-91cd-f116c27b7f4e.png"
     },
     {
         "id": 5,

@@ -1,81 +1,94 @@
 #fs-frm {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .contactLabels {
-    display:block;
-    width:100%;
-    height:5vh;
-    font-size:40px;
-    line-height:100%;
-    text-align: center;
-    margin-bottom:3vh;
-    text-decoration: underline;
-  }
-  #full-name, #email-address, #message{
-    display:block;
-    width:80%;
-    height:10%;
-    margin:auto;
-    margin-bottom:3vh;
-    line-height:100%;
-    font-size:3vh;
-    outline:none;
-    border:none;
-    border-bottom:solid 2px black;
-    background:transparent;
-  }
-  #full-name:focus, #email-address:focus, #message:focus, #submitBtn:hover{
-    transition: 0.35s;
-    border-color: royalblue;
-  }
-  #message{
-    height:15vh;
-    resize:none;
-    border:solid 2px black;
-  }
-  #submitBtn {
-    display:block;
-    width:25%;
-    margin:auto;
-    height:5vh;
-    margin-top: 5vh;
-    font-size:3vh;
-    cursor: pointer;
-    background:transparent;
-    outline: none;
-    border:solid black;
-    border-radius:4px;
-  }
-
-  @media only screen and (min-width: 1025px) and (orientation: portrait) {
-    .contactLabels {
-      font-size:50px;
-    }
+  display: block;
+  width: 100%;
+  height: 5vh;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 3vh;
+  text-decoration: underline;
+}
+#full-name,
+#email-address,
+#message {
+  display: block;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  margin-bottom: 3vh;
+  line-height: 100%;
+  font-size: 3vh;
+  outline: none;
+  border: none;
+  border-bottom: solid 2px black;
+  background: transparent;
+}
+#full-name:focus,
+#email-address:focus,
+#message:focus,
+#submitBtn:hover {
+  transition: 0.35s;
+  border-color: royalblue;
+}
+#message {
+  height: 15vh;
+  resize: none;
+  border: solid 2px black;
+}
+#submitBtn {
+  display: block;
+  width: 25%;
+  margin: auto;
+  height: 5vh;
+  margin-top: 5vh;
+  font-size: 3vh;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: solid black;
+  border-radius: 4px;
 }
 
-  @media only screen and (max-width: 813px) {
-    .contactLabels {
-      font-size:30px;
-    }
-
+@media only screen and (min-width: 2570px) {
+  .contactLabels {
+    font-size: 80px;
   }
+}
 
-  @media only screen and (max-width: 1025px) and (orientation: landscape) {
-    .contactLabels {
-      font-size:30px;
-    }
+@media only screen and (min-width: 1025px) and (orientation: portrait) {
+  .contactLabels {
+    font-size: 50px;
   }
+}
 
-  @media only screen and (max-width: 813px) and (orientation: landscape) {
-    .contactLabels {
-      font-size:15px;
-    }
-    #full-name, #email-address, #message, #submitBtn{
-      font-size:15px;
-    }
-    #submitBtn {
-      height:30px;
-      margin-top:10px;
-    }
+@media only screen and (max-width: 813px) {
+  .contactLabels {
+    font-size: 30px;
   }
+}
+
+@media only screen and (max-width: 1025px) and (orientation: landscape) {
+  .contactLabels {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 813px) and (orientation: landscape) {
+  .contactLabels {
+    font-size: 15px;
+  }
+  #full-name,
+  #email-address,
+  #message,
+  #submitBtn {
+    font-size: 15px;
+  }
+  #submitBtn {
+    height: 30px;
+    margin-top: 10px;
+  }
+}

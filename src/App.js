@@ -1,4 +1,4 @@
-import React, { Component, useContext } from "react";
+import React, { useContext } from "react";
 import { Switch, Route, __RouterContext } from "react-router-dom";
 import { useTransition, animated } from "react-spring";
 import Navbar from "../src/components/navbar";

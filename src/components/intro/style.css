@@ -6,6 +6,7 @@
 #intro p,
 .skill {
   font-size: 3vh;
+  list-style-type: none;
 }
 
 .tSkills {
@@ -40,7 +41,7 @@
 }
 @media only screen and (min-width: 1025px) and (orientation: portrait) {
   .tSkills {
-    width:75vw;
+    width: 75vw;
   }
 }
 
@@ -52,8 +53,7 @@
 
 @media only screen and (max-width: 813px) and (orientation: landscape) {
   #intro p,
-.skill {
-  font-size: 5vh;
-}
-
+  .skill {
+    font-size: 5vh;
+  }
 }

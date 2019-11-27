@@ -1,145 +1,153 @@
 #sidenav {
-    height:100vh;
-    width: 5vw;
-    left:0;
-    background-color:white;
-    display:flex;
-    flex-direction:column;
-    border-right:2px solid black;
-    z-index:5;
-    margin:1px;
-    position:fixed;
+  height: 100vh;
+  width: 5vw;
+  left: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid black;
+  z-index: 5;
+  margin: 1px;
+  position: fixed;
 }
-#topnav{
-    height:80px;
-    width:100%;
-    background-color:gray;
-    display:none;
+#topnav {
+  height: 80px;
+  width: 100%;
+  background-color: gray;
+  display: none;
 }
-#hamburger{
-    width:100% !important;
-    height:110% !important;
-    margin-top:-10% !important;
-    background:lightgray !important;
-    z-index:1101 !important;
-    position:absolute !important;
+#hamburger {
+  width: 100% !important;
+  height: 110% !important;
+  margin-top: -10% !important;
+  background: lightgray !important;
+  z-index: 1101 !important;
+  position: absolute !important;
 }
 .bm-burger-button button {
-    height:50px !important;
-    width:100px;
-    background:transparent !important;
-    z-index:1100;
-    border-bottom:2px solid black !important;
+  height: 50px !important;
+  width: 100px;
+  background: transparent !important;
+  z-index: 1100;
+  border-bottom: 2px solid black !important;
 }
 .bm-cross-button button {
-    background-image:url(./images/close.svg) !important;
+  background-image: url(./images/close.svg) !important;
 }
 #hamburger a {
-    font-family: 'Merienda One', cursive;
-    text-align:center;
-    margin: 0 auto;
-    height:10px;
-    width:150px;
-    margin-top:50px;
-    font-size:20px;
+  font-family: "Merienda One", cursive;
+  text-align: center;
+  margin: 0 auto;
+  height: 10px;
+  width: 150px;
+  margin-top: 50px;
+  font-size: 20px;
 }
-#siteLinks, #resourceLinks {
-    display:flex;
-    flex-direction:column;
+#siteLinks,
+#resourceLinks {
+  display: flex;
+  flex-direction: column;
 }
-#siteLinksTop, #resourceLinksTop {
-    display:flex;
-    flex-direction:column;
+#siteLinksTop,
+#resourceLinksTop {
+  display: flex;
+  flex-direction: column;
 }
-a{
-    text-decoration: none;
-}
-
-#siteLinks a, #resourceLinks a {
-    height:6vh;
-    margin: 5px auto;
-    color:black;
-    font-size:3vh;
-}
-#siteLinks a:hover, #resourceLinks a:hover{
-    transition: 0.3s;
-    color:royalblue;
-  }
-#siteLinks{
-    margin-top:20vh;
-}
-#resourceLinks{
-    margin-top:12.5vh;
+a {
+  text-decoration: none;
 }
 
-#logo{
-    height:12vh;
-    width:5vw;
-    color:black;
-    font-family: 'Kaushan Script', cursive;
-    text-align:center;
-    font-size:35px;
+#siteLinks a,
+#resourceLinks a {
+  height: 6vh;
+  margin: 5px auto;
+  color: black;
+  font-size: 3vh;
+}
+#siteLinks a:hover,
+#resourceLinks a:hover {
+  transition: 0.3s;
+  color: royalblue;
+}
+#siteLinks {
+  margin-top: 20vh;
+}
+#resourceLinks {
+  margin-top: 12.5vh;
+}
+
+#logo {
+  height: 12vh;
+  width: 100%;
+  color: black;
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  font-size: 35px;
 }
 
 .bm-burger-bars {
-    display:none !important;
+  display: none !important;
 }
 @media only screen and (min-width: 1025px) and (orientation: portrait) {
-    #sidenav {
-        width:8vw;
-    }
-    #logo{
-        font-size:2vh;
-        margin-left:5px;
-      }
+  #sidenav {
+    width: 8vw;
+  }
+  #logo {
+    font-size: 2vh;
+    margin-left: 5px;
+  }
+  #siteLinks a,
+  #resourceLinks a {
+    height: 6vh;
+    margin: 5px auto;
+    color: black;
+    font-size: 2vh;
+  }
 }
 @media only screen and (max-width: 1025px) {
-    #sidenav {
-        width:9vw;  
-    }
-    #logo{
-        margin:auto;
-        margin-top:0;
-        margin-bottom:0;
-    }
-    #hamburger{
-        margin-top:-5% !important;
-    }
-    
+  #sidenav {
+    width: 9vw;
+  }
+  #logo {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #hamburger {
+    margin-top: -5% !important;
+  }
 }
 
-
 @media only screen and (max-width: 813px) {
-    #sidenav {
-        display:none;
-    }
-    #topnav{
-        display:initial;
-        z-index:1100;
-        background:transparent;
-        position:static;
-    }
-    #logo{
-        position:Fixed;
-        width:auto;
-        height:auto;
-        line-height:110%;
-        margin-left:10px;
-        position:static;
-        z-index:2000;
-    }
-    #hIcon {
-        position:fixed;
-        right:0;
-        margin-top:20px;
-        margin-right:20px;
-        background-image:"./images/hamburger-icon";
-        z-index:10;
-        float:right;
-        position:static;
-    }
-    #hamburger{
-        margin-top:-10% !important;
-    }
-
+  #sidenav {
+    display: none;
+  }
+  #topnav {
+    display: initial;
+    z-index: 1100;
+    background: transparent;
+    position: static;
+  }
+  #logo {
+    position: Fixed;
+    width: auto;
+    height: auto;
+    line-height: 110%;
+    margin-left: 10px;
+    position: static;
+    z-index: 2000;
+  }
+  #hIcon {
+    position: fixed;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-image: "./images/hamburger-icon";
+    z-index: 10;
+    float: right;
+    position: static;
+  }
+  #hamburger {
+    margin-top: -10% !important;
+  }
 }

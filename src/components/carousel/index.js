@@ -17,6 +17,7 @@ export default class Carousel extends Component {
             slidesToShow: 3,
             slidesToScroll: 3,
             initialSlide: 0,
+            arrows: true,
             responsive: [
                 {
                     breakpoint: 1441,
@@ -46,7 +47,7 @@ export default class Carousel extends Component {
         };
         return (
             <AbsoluteWrap>
-                <h1 className="mainH"> Projects</h1>
+                {/* <h1 className="mainH"> Projects</h1> */}
                 <Slider {...settings}>
                     {this.state.projects.map(project => (
                         <CarouselItem
@@ -56,6 +57,7 @@ export default class Carousel extends Component {
                             codelink={project.codelink}
                             demolink={project.demolink}
                             description={project.description}
+                            technology={project.technology}
                             image={project.image}
                         />
                     ))}

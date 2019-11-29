@@ -1,11 +1,11 @@
-.slick-slider {
-  transform: rotate(0deg);
+body{
+  overflow:hidden;
 }
 
 .slick-list {
-  width: 80vw;
+  width: 95vw;
   margin: auto;
-  margin-top: 5vh;
+  margin-left:5vw;
   cursor: grab;
 }
 
@@ -14,17 +14,13 @@
 }
 
 .slick-list .slick-track div {
-  height: 60vh;
-  background: lightgray;
-}
-
-.slick-arrow {
-  display: none !important;
+  height: 100vh;
 }
 
 .project-name {
   text-align: center;
   font-size: 2.5vh;
+  height:5vh;
 }
 
 .code-link,
@@ -61,24 +57,69 @@
 #project {
   display: flex;
   flex-direction: column;
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 
-.description {
-  height: auto;
-  font-size: 2vh;
-  padding: 5px;
+.description, .technology-used {
+  height:10vh !important;
+  width:90%;
+  margin:auto;
+  font-size: 25px;
   box-sizing: border-box;
 }
 
 .project-image {
-  width: 90%;
-  height: 25vh;
-  margin: auto;
+  width: 99%;
+  height: 35vh;
+  margin-top: 75px;
+}
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev,
+button.slick-arrow :active,
+button.slick-arrow :hover,
+button.slick-arrow.after,
+button.slick-arrow::before
+ {
+  position:absolute;
+  z-index: 200;
+  cursor: pointer;
+  width: 50px !important;
+  height:100px;
+  opacity:0.8
+  /* display:none !important; */
+}
+.slick-arrow.slick-next::before, .slick-arrow.slick-prev::before {
+  display:none !important;
+}
+
+button.slick-arrow.slick-prev {
+  background: url(./back.svg)  !important;
+  background-repeat:no-repeat !important;
+  background-size:contain !important;
+  margin-left:8vw;
+  margin-top:100px;
+}
+button.slick-arrow.slick-next {
+  background: url(./next.svg)  !important;
+  background-repeat:no-repeat !important;
+  background-size:contain !important;
+  margin-right:50px;
+  margin-top:100px;
 }
 @media only screen and (min-width: 2570px) {
+  .code-link,
+  .demo-link,
+  .code-linkNA,
+  .demo-linkNA {
+    font-size: 35px;
+  }
+  #logo {
+    font-size: 70px;
+  }
+  .description, .technology-used {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 3800px) {
   .code-link,
   .demo-link,
   .code-linkNA,
@@ -88,95 +129,140 @@
   #logo {
     font-size: 70px;
   }
+  .description, .technology-used {
+    font-size: 50px;
+  }
 }
 @media only screen and (min-width: 1030px) and (orientation: portrait) {
   #logo {
     font-size: 4vw;
   }
-  .project-image {
-    width: 100%;
-    height: 15vh;
-  }
 
-  .slick-list .slick-track div {
-    height: 45vh;
-  }
   .slick-list {
-    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-top:10vh;
   }
   .project-name {
     font-size: 2vh;
   }
-  .description {
-    font-size: 1.2vh;
+  .description, .technology-used {
+    font-size: 30px;
+    height:50vh;
   }
   .code-link,
   .demo-link,
   .code-linkNA,
   .demo-linkNA {
-    font-size: 1vh;
+    font-size: 30px;
+  }
+  .project-image {
+    height: 10vh;
+    margin: auto;
+    margin-bottom:5vh;
+  }
+  .slick-list .slick-track div {
+    height: 70vh;
+  }
+  button.slick-arrow.slick-prev {
+    margin-left:11vw;
+    margin-top:500px;
+  }
+  button.slick-arrow.slick-next {
+    margin-right:0;
+    margin-top:500px;
+  }
+}
+@media only screen and (min-width: 1400px) and (orientation: portrait) {
+  .description, .technology-used {
+    font-size: 32.5px;
+  }
+  .code-link,
+  .demo-link,
+  .code-linkNA,
+  .demo-linkNA {
+    font-size: 32.5px;
+  }
+}
+@media only screen and (min-width: 2100px) and (orientation: portrait) {
+  .description, .technology-used {
+    font-size: 50px;
+  }
+  .code-link,
+  .demo-link,
+  .code-linkNA,
+  .demo-linkNA {
+    font-size: 50px;
   }
 }
 
 @media only screen and (max-width: 1030px) {
+  .slick-slider {
+    transform: rotate(0deg);
+  }
+  
+  #project, .slick-list {
+    transform: rotate(0deg);
+  }
   .project-image {
-    width: 100%;
-    height: 15vh;
+    margin-top:0;
+    margin-bottom:5vh;
+    height: 20vh;
   }
   .slick-list .slick-track div {
-    height: 40vh;
+    height: 100vh;
   }
   .slick-list {
-    width: 85vw;
-    margin: auto;
-    margin-top: 15vh;
+    width: 90vw;
+    height:100vh;
+    margin: 0;
     margin-left: 10vw;
   }
   .project-name {
     font-size: 20px;
     height: 100px;
   }
-  .description {
+  .description, .technology-used {
     font-size: 1.5vh;
+    height:50vh !important;
+  }
+  button.slick-arrow.slick-prev {
+    margin-left:12.5vw;
+    width:100%;
   }
 }
-@media only screen and (max-width: 1025px) and (orientation: landscape) {
+@media only screen and (max-width: 1340px) and (orientation: landscape) {
   #project,
   .slick-list {
-    height: 70vh;
+    height: 100vh;
     margin: auto;
   }
   .slick-list {
     margin-left: 100px;
   }
-  .description {
-    height: auto;
+  .description, .technology-used {
     font-size: 2.2vh;
   }
   .project-image {
-    width: 100%;
     height: 30vh;
   }
 }
 
 @media only screen and (max-width: 815px) {
-  .description {
-    font-size: 1.5vh;
+  .description, .technology-used {
+    font-size: 2.5vh;
     padding-top: 25px;
   }
-  .project-image {
-    width: 100%;
-  }
   .slick-list .slick-track div {
-    height: 65vh;
+    height:95vh;
+    margin-top:1vh;
   }
   .slick-list {
-    width: 80vw;
-    margin: auto;
-    margin-top: 5vh;
+    width:100vw;
+    margin-left:0;
   }
-  .description {
-    font-size: 2.5vh;
+  button.slick-arrow.slick-prev {
+    margin-left:50px;
+    width:100%;
   }
 }
 @media only screen and (max-width: 815px) and (orientation: landscape) {
@@ -187,13 +273,13 @@
   .project-image {
     height: 15vh;
     width: 40%;
-    margin: 0;
+    margin: auto;
   }
   .slick-slide img {
-      display:none;
+    display: none;
   }
-  .description {
-    font-size: 12px;
+  .description, .technology-used {
+    font-size: 15px;
     padding-top: 5px;
   }
   .code-link,
@@ -202,22 +288,24 @@
   .code-linkNA {
     font-size: 2.75vh;
     margin-bottom: 5px;
-    z-index:10;
+    z-index: 10;
   }
-  #project,
-  .slick-list {
-    height: 55vh;
+  .slick-list .slick-track div {
+    height: 100vh;
   }
-
-
+  button.slick-arrow.slick-prev, button.slick-arrow.slick-next {
+    margin-top:0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .project-image {
-    height: 15vh;
-    width: 80%;
+    height: 25vh;
+    width: 100%;
+    margin: auto;
+    margin-bottom:5vh;
   }
-  .description {
+  .description, .technology-used {
     font-size: 20px;
     padding-top: 5px;
   }
@@ -225,6 +313,24 @@
   .demo-link,
   .demo-linkNA,
   .code-linkNA {
-    z-index:10;
+    z-index: 10;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .project-image {
+    height: 25vh;
+    width: 100%;
+    margin: auto;
+    margin-bottom:5vh;
+  }
+  .description, .technology-used {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .code-link,
+  .demo-link,
+  .demo-linkNA,
+  .code-linkNA {
+    z-index: 10;
   }
 }

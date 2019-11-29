@@ -6,8 +6,8 @@ function Intro() {
     return (
         <AbsoluteWrap>
             <div id="intro">
-                <h1 className="mainH">About Me</h1>
-                <p>I am a fast learning web developer based in Sacramento, CA. Enjoy using new technology, cooking,
+                <h1 className="mainH">John Mateer</h1>
+                <p>I am a fast learning web developer based in Roseville, CA. Enjoy using new technology, cooking,
                 and tinkering with computers/cars. Recently completed the UC Davis full-stack coding bootcamp.</p>
                 <h1 id="tsheader" className="mainH">Technical skills</h1>
                 <ul className="tSkills">

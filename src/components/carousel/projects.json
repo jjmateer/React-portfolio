@@ -5,7 +5,8 @@
         "title": "Realtech Storefront",
         "codelink": "https://github.com/jjmateer/Project-3",
         "demolink": "https://sleepy-caverns-29266.herokuapp.com/",
-        "description": "MERN stack application that allows users can create an account/log in, browse fake inventory, save products to cart, and check out. I was in charge of redux, authentication, routing, and implementing product sliders.",
+        "description": "MERN stack  application that allows users can create an account/log in, browse fake inventory, save products to cart, and check out. I was in charge of implementing redux, authentication, routing, and the front end.",
+        "technology": " Technologies used: React.js, MongoDB, Express.js, Node.js, Redux, CSS3, JSON Web Tokens, Bcrypt, React-router, Axios.",
         "image": "https://user-images.githubusercontent.com/50982277/69692619-77842600-1087-11ea-9693-ed74e74cd917.png"
     },
     {
@@ -14,16 +15,9 @@
         "codelink": "https://github.com/jjmateer/Google-Books-Search",
         "demolink": "https://frozen-woodland-04984.herokuapp.com/",
         "description": "MERN stack application that searches the Google Books API and allows users save them to a list for later viewing or visit the original link. ",
+        "technology": "Technologies used: React.js, MongoDB, Express.js, Node.js, React-router, CSS3, Axios, Bootstrap.",
         "image": "https://user-images.githubusercontent.com/50982277/69002471-c3bfb100-08a4-11ea-91cd-f116c27b7f4e.png"
         
-    },
-    {
-        "id": 1,
-        "title": "The Social Network",
-        "codelink": "https://github.com/Guhuyan/Project-2",
-        "demolink": "https://tranquil-wave-24974.herokuapp.com/",
-        "description": "Node-Express application where users can create an account/login, make posts which display on the dashboard, and chat with others. I was assigned to work on the back-end.",
-        "image": "https://user-images.githubusercontent.com/50982277/68998722-0d8ba580-086b-11ea-8075-dc77c2fe3cc4.png"
     },
     {
         "id": 3,
@@ -31,7 +25,17 @@
         "codelink": "https://github.com/jjmateer/NYT-Scraper",
         "demolink": "https://quiet-shore-70480.herokuapp.com/",
         "description": "Node-Express application that scrapes article information from the world news section of the New York Times website. Users can save articles of their choice, take notes, and retrieve previously deleted notes.",
+        "technology": "Technologies used: Node.js, Express-Handlebars, Express.js, Axios, Cheerio, CSS3, MongoDB, Bootstrap",
         "image": "https://user-images.githubusercontent.com/50982277/67139032-371bc780-f200-11e9-9442-29f896d29558.png"
+    },
+    {
+        "id": 1,
+        "title": "The Social Network",
+        "codelink": "https://github.com/Guhuyan/Project-2",
+        "demolink": "https://tranquil-wave-24974.herokuapp.com/",
+        "description": "Node-Express application where users can create an account/login, make posts which display on the dashboard, and chat with others. I was assigned to work on the back-end.",
+        "technology": "Technologies used:  MongoDB, MySQL, Sequelize, Express.js, CSS3, Express-Handlebars Express Session, Bcrypt, Socket.io, Node.js.",
+        "image": "https://user-images.githubusercontent.com/50982277/68998722-0d8ba580-086b-11ea-8075-dc77c2fe3cc4.png"
     },
     {
         "id": 5,
@@ -39,6 +43,7 @@
         "codelink": "https://github.com/jjmateer/React-Click-Game",
         "demolink": "https://vibrant-hodgkin-5c7465.netlify.com/",
         "description": "A simple game built with react where users will try to click a unique tile until they reach the max score. If the same tile is clicked more than once, the score will reset.",
+        "technology": " Technologies used: React.js, Node.js, CSS3",
         "image": "https://user-images.githubusercontent.com/50982277/68252370-35147f80-ffda-11e9-942f-db2a3ffb85ba.png"
     }
 ]

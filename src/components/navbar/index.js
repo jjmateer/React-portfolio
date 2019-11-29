@@ -7,7 +7,8 @@ class Navbar extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            menuOpen: false
+            menuOpen: false,
+            text: ''
         }
     }
     handleStateChange(state) {
@@ -33,7 +34,7 @@ class Navbar extends Component {
                     <div id="resourceLinks">
                         <a className="fa fa-github" href="https://github.com/jjmateer"> </a>
                         <a className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
-                        <a className="fa fa-file-text" href="https://github.com/jjmateer/React-portfolio/files/3872109/Resume-JPM.pdf"> </a>
+                        <a className="fa fa-file-text" href="https://github.com/jjmateer/React-portfolio/files/3903850/John_Mateer_Resume.pdf"> </a>
                     </div>
                 </div >
                 <div id="topnav">
@@ -46,7 +47,7 @@ class Navbar extends Component {
                         <Link onClick={() => this.toggleMenu()} to="/contact" >Contact</Link>
                         <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer">GitHub</a>
                         <a onClick={() => this.toggleMenu()} href="https://linkedin.com/in/john-mateer">LinkedIn</a>
-                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer/React-portfolio/files/3895216/John_Mateer_Resume.pdf">Resume</a>
+                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer/React-portfolio/files/3903850/John_Mateer_Resume.pdf">Resume</a>
                     </Menu>
                 </div >
             </div>

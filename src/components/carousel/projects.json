@@ -25,7 +25,7 @@
         "codelink": "https://github.com/jjmateer/NYT-Scraper",
         "demolink": "https://quiet-shore-70480.herokuapp.com/",
         "description": "Node-Express application that scrapes article information from the world news section of the New York Times website. Users can save articles of their choice, take notes, and retrieve previously deleted notes.",
-        "technology": "Technologies used: Node.js, Express-Handlebars, Express.js, Axios, Cheerio, CSS3, MongoDB, Bootstrap",
+        "technology": "Technologies used: Node.js, Express-Handlebars, Express.js, Axios, Cheerio, CSS3, MongoDB, Bootstrap.",
         "image": "https://user-images.githubusercontent.com/50982277/67139032-371bc780-f200-11e9-9442-29f896d29558.png"
     },
     {
@@ -43,7 +43,7 @@
         "codelink": "https://github.com/jjmateer/React-Click-Game",
         "demolink": "https://vibrant-hodgkin-5c7465.netlify.com/",
         "description": "A simple game built with react where users will try to click a unique tile until they reach the max score. If the same tile is clicked more than once, the score will reset.",
-        "technology": " Technologies used: React.js, Node.js, CSS3",
+        "technology": " Technologies used: React.js, Node.js, CSS3.",
         "image": "https://user-images.githubusercontent.com/50982277/68252370-35147f80-ffda-11e9-942f-db2a3ffb85ba.png"
     }
 ]

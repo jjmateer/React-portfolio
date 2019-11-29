@@ -47,7 +47,6 @@ export default class Carousel extends Component {
         };
         return (
             <AbsoluteWrap>
-                {/* <h1 className="mainH"> Projects</h1> */}
                 <Slider {...settings}>
                     {this.state.projects.map(project => (
                         <CarouselItem

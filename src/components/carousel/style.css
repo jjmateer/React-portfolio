@@ -58,7 +58,6 @@
 }
 
 .description, .technology-used {
-  height:10vh !important;
   width:90%;
   margin:auto;
   font-size: 25px;

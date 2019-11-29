@@ -1,6 +1,8 @@
 #intro {
   width: 80vw;
   margin: auto;
+  overflow:hidden;
+  height:100vh;
 }
 
 
@@ -52,7 +54,7 @@
 }
 
 @media only screen and (max-width: 813px) and (orientation: landscape) {
-  #intro p,
+  #intro,
   .skill {
     font-size: 5vh;
   }

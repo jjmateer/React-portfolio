@@ -1,5 +1,4 @@
 #intro {
-  max-width: 80vw;
   width:auto;
   margin: auto;
   overflow:hidden;
@@ -11,6 +10,8 @@
 }
 #introp{
   color:#e5e5ee;
+  border-bottom: solid #e5e5ee;
+  padding:5vw;
 }
 
 .skill, #intro {

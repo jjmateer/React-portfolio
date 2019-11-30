@@ -29,7 +29,7 @@
   background: #e5e5ee;
   margin-bottom: 20px;
   border-radius: 5%;
-  padding: 2px;
+  padding: 5px;
   width: 40%;
   text-align: center;
   font-size: 2vh;
@@ -273,7 +273,7 @@ button.slick-arrow.slick-next:hover{
 }
 @media only screen and (max-width: 815px) and (orientation: landscape) {
   .project-name {
-    font-size: 2vw;
+    font-size: 3vw;
     height: 10px;
   }
   .slick-list {
@@ -298,7 +298,7 @@ button.slick-arrow.slick-next:hover{
   .demo-link,
   .demo-linkNA,
   .code-linkNA {
-    font-size: 2.75vh;
+    font-size: 3.5vh;
     margin-bottom: 5px;
     z-index: 10;
   }
@@ -312,20 +312,28 @@ button.slick-arrow.slick-next:hover{
 }
 
 @media only screen and (max-width: 600px) {
+  .project-name{
+    font-size: 3vh;
+  }
   body {
     overflow: auto;
   }
   .description,
   .technology-used {
-    font-size: 20px;
+    font-size: 3vh;
   }
   .code-link,
   .demo-link,
   .demo-linkNA,
   .code-linkNA {
+    font-size: 3vh;
     z-index: 10;
   }
   .slick-slide img {
     display: none;
+  }
+  button.slick-arrow.slick-prev,
+  button.slick-arrow.slick-next {
+    margin-top: 12vh;
   }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import AbsoluteWrap from "../absolute-wrap";
 import RandomText from "../text-animation/random-text";
+import WaveText from "../text-animation/wave-text";
 import { Link } from "react-router-dom";
 import "./style.css";
 

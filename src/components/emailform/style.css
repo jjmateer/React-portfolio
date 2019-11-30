@@ -52,8 +52,8 @@
 .headerCont {
   display: flex;
   flex-direction: row;
-  border-top: solid black;
-  border-bottom: solid black;
+  border-top: solid #e5e5ee;
+  border-bottom: solid #e5e5ee;
   margin-bottom: 2vh;
   margin-top: 5vh;
   color: #e5e5ee;

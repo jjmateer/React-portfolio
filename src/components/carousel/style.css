@@ -104,6 +104,10 @@ button.slick-arrow.slick-next {
   background-size: contain !important;
   margin-right: 50px;
 }
+button.slick-arrow.slick-prev:hover,
+button.slick-arrow.slick-next:hover{
+  opacity:1;
+}
 @media only screen and (min-width: 2570px) {
   .code-link,
   .demo-link,

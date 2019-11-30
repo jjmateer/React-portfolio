@@ -24,8 +24,6 @@ export default class Carousel extends Component {
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,
-                        infinite: true,
-                        dots: false
                     }
                 },
                 {

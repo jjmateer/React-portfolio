@@ -3,7 +3,7 @@
   width:auto;
   margin: auto;
   overflow:hidden;
-  height:99vh;
+  height:110vh;
   word-wrap: break-word;
   text-align: left;
   padding:5px;
@@ -15,6 +15,10 @@
   font-size: 3vh;
   list-style-type: none;
   text-align:center;
+}
+
+#highlightedWord {
+  font-weight: bold;
 }
 
 .skill {

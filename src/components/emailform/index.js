@@ -1,23 +1,27 @@
 import React from "react";
 import AbsoluteWrap from "../absolute-wrap";
-import AnimatedText from "../text-animation";
+import WaveText from "../text-animation/wave-text";
 import "./style.css";
 
 function EmailForm() {
     return (
         <AbsoluteWrap>
-        <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/jj.mateer@live.com" method="post">
-            <h1 className="mainH"><AnimatedText text={"Send me a message!"}/></h1>
-            <label className="contactLabels" htmlFor="full-name">Full Name</label>
-            <input type="text" name="name" id="full-name" placeholder="First and Last" required></input>
-            <label className="contactLabels" htmlFor="email-address">Email Address</label>
-            <input type="email" name="_replyto" id="email-address" placeholder="example@email.com" required></input>
-            <label className="contactLabels" htmlFor="message">Message</label>
-            <textarea rows="5" name="message" id="message" placeholder="Your message here..." required></textarea>
-            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
-            <input type="hidden" name="_next" value="https://react-slick.neostack.com/docs/example/custom-arrows/" />
-            <input type="submit" id="submitBtn" value="Submit"></input>
-        </form>
+            <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/jj.mateer@live.com" method="post">
+                <div className="headerCont">
+                    <div className="leftHeader">Phone: <WaveText text={"(503) 915 - 4809"} /></div>
+                    <div className="rightHeader">Email: <WaveText text={"jj.mateer@live.com"} /></div>
+                </div>
+                <h1 className="mainHcontact">Send me a message!</h1>
+                <label className="contactLabels" htmlFor="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required></input>
+                <label className="contactLabels" htmlFor="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="example@email.com" required></input>
+                <label className="contactLabels" htmlFor="message">Message</label>
+                <textarea rows="5" name="message" id="message" placeholder="Your message here..." required></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"></input>
+                <input type="hidden" name="_next" value="https://react-slick.neostack.com/docs/example/custom-arrows/" />
+                <input type="submit" id="submitBtn" value="Submit"></input>
+            </form>
         </AbsoluteWrap>
     )
 }

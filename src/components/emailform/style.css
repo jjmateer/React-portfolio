@@ -40,6 +40,20 @@
   resize: none;
   border: solid 2px black;
 }
+.rightHeader, .leftHeader{
+  width:50vw;
+  font-size:3vh;
+  text-align: center;
+  margin:0;
+}
+.headerCont{
+  display:flex;
+  flex-direction: row;
+  border-top:solid black;
+  border-bottom:solid black;
+  margin-bottom:2vh;
+  margin-top:5vh;
+}
 #submitBtn:hover {
   transition:0.35s;
   background:royalblue;
@@ -56,8 +70,24 @@
   outline: none;
   border: solid black;
   border-radius: 4px;
+  margin-bottom:5vh;
 }
-
+.mainHcontact {
+  text-align:center;
+  padding-bottom:5vh;
+  margin:auto;
+  font-size:3.5vh;
+}
+@media only screen and (max-width: 813px) {
+  .headerCont{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:5vh;
+  }
+  .rightHeader, .leftHeader{
+    width:100vw;
+  }
+  }
 @media only screen and (max-width: 813px) and (orientation: landscape) {
   #fs-frm {
     margin-top:13vh;
@@ -74,5 +104,15 @@
   #submitBtn {
     height: 30px;
     margin-top: 10px;
+  }
+  .rightHeader, .leftHeader{
+    font-size:4vh;
+  }
+  .mainHcontact{
+    display:none;
+  }
+  .headerCont{
+    display:flex;
+    flex-direction: row;
   }
 }

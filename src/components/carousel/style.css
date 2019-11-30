@@ -1,9 +1,7 @@
-
-
 .slick-list {
   width: 95vw;
   margin: auto;
-  margin-left:5vw;
+  margin-left: 5vw;
   cursor: grab;
 }
 
@@ -18,7 +16,7 @@
 .project-name {
   text-align: center;
   font-size: 2.5vh;
-  height:5vh;
+  height: 5vh;
 }
 
 .code-link,
@@ -26,21 +24,21 @@
 .code-linkNA,
 .demo-linkNA {
   margin: auto;
-  border:2px solid black;
+  border: 2px solid black;
   background: white;
   margin-bottom: 20px;
   border-radius: 5%;
   padding: 2px;
-  width:40%;
-  text-align:center;
-  font-size:2vh;
+  width: 40%;
+  text-align: center;
+  font-size: 2vh;
 }
 
 .code-link:hover,
 .demo-link:hover {
   transition: 0.35s;
   background: royalblue;
-  color:white;
+  color: white;
 }
 
 #link-container {
@@ -51,25 +49,25 @@
 #project {
   display: flex;
   flex-direction: column;
-  height:99%;
-  width:99%;
-  background:white;
+  height: 100%;
+  margin:auto;
+  width: 99%;
+  background: white;
 }
 
-
-
-.description, .technology-used {
-  width:90%;
-  height:20vh;
-  margin:auto;
+.description,
+.technology-used {
+  width: 90%;
+  height: 20vh;
+  margin: auto;
   box-sizing: border-box;
   font-size: 2.5vh;
 }
 
-  .slick-slide img {
+.slick-slide img {
   width: 99%;
   height: 35vh;
-  margin:auto;
+  margin: auto;
   margin-top: 75px;
 }
 button.slick-arrow.slick-next,
@@ -77,31 +75,31 @@ button.slick-arrow.slick-prev,
 button.slick-arrow :active,
 button.slick-arrow :hover,
 button.slick-arrow.after,
-button.slick-arrow::before
- {
-  position:absolute;
+button.slick-arrow::before {
+  position: absolute;
   z-index: 200;
   cursor: pointer;
   width: 50px !important;
-  height:100px;
-  opacity:0.8
+  height: 100px;
+  opacity: 0.8;
   /* display:none !important; */
 }
-.slick-arrow.slick-next::before, .slick-arrow.slick-prev::before {
-  display:none !important;
+.slick-arrow.slick-next::before,
+.slick-arrow.slick-prev::before {
+  display: none !important;
 }
 
 button.slick-arrow.slick-prev {
-  background: url(./back.svg)  !important;
-  background-repeat:no-repeat !important;
-  background-size:contain !important;
-  margin-left:8vw;
+  background: url(./back.svg) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  margin-left: 8vw;
 }
 button.slick-arrow.slick-next {
-  background: url(./next.svg)  !important;
-  background-repeat:no-repeat !important;
-  background-size:contain !important;
-  margin-right:50px;
+  background: url(./next.svg) !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  margin-right: 50px;
 }
 @media only screen and (min-width: 2570px) {
   .code-link,
@@ -113,7 +111,8 @@ button.slick-arrow.slick-next {
   #logo {
     font-size: 70px;
   }
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 35px;
   }
 }
@@ -127,25 +126,27 @@ button.slick-arrow.slick-next {
   #logo {
     font-size: 70px;
   }
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 50px;
   }
 }
-@media only screen and (min-width: 1030px) and (orientation: portrait) {
+@media only screen and (min-width: 1080px) and (orientation: portrait) {
   #logo {
     font-size: 4vw;
   }
 
   .slick-list {
-    margin-left: 10vw;
-    margin-top:10vh;
+    margin-left: 8vw;
+    margin-top: 10vh;
   }
   .project-name {
     font-size: 2vh;
   }
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 30px;
-    height:50vh;
+    height: 50vh;
   }
   .code-link,
   .demo-link,
@@ -153,25 +154,26 @@ button.slick-arrow.slick-next {
   .demo-linkNA {
     font-size: 30px;
   }
-    .slick-slide img {
+  .slick-slide img {
     height: 10vh;
     margin: auto;
-    margin-bottom:5vh;
+    margin-bottom: 5vh;
   }
   .slick-list .slick-track div {
     height: 70vh;
   }
   button.slick-arrow.slick-prev {
-    margin-left:11vw;
-    margin-top:500px;
+    margin-left: 11vw;
+    margin-top: 500px;
   }
   button.slick-arrow.slick-next {
-    margin-right:0;
-    margin-top:500px;
+    margin-right: 0;
+    margin-top: 500px;
   }
 }
 @media only screen and (min-width: 1400px) and (orientation: portrait) {
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 32.5px;
   }
   .code-link,
@@ -182,7 +184,8 @@ button.slick-arrow.slick-next {
   }
 }
 @media only screen and (min-width: 2100px) and (orientation: portrait) {
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 50px;
   }
   .code-link,
@@ -194,16 +197,9 @@ button.slick-arrow.slick-next {
 }
 
 @media only screen and (max-width: 1030px) {
-  .slick-slider {
-    transform: rotate(0deg);
-  }
-  
-  #project, .slick-list {
-    transform: rotate(0deg);
-  }
-    .slick-slide img {
-    margin-top:0;
-    margin-bottom:5vh;
+  .slick-slide img {
+    margin-top: 0;
+    margin-bottom: 5vh;
     height: 20vh;
   }
   .slick-list .slick-track div {
@@ -211,21 +207,22 @@ button.slick-arrow.slick-next {
   }
   .slick-list {
     width: 90vw;
-    height:100vh;
+    height: 100vh;
     margin: 0;
-    margin-left: 10vw;
+    margin-left: 9.5vw;
   }
   .project-name {
     font-size: 20px;
     height: 100px;
   }
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 30px;
-    height:50vh;
+    height: 50vh;
   }
   button.slick-arrow.slick-prev {
-    margin-left:12.5vw;
-    width:100%;
+    margin-left: 12.5vw;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 1340px) and (orientation: landscape) {
@@ -235,36 +232,38 @@ button.slick-arrow.slick-next {
     margin: auto;
   }
   .slick-list {
-    margin-left: 100px;
+    margin-left: 5vw;
   }
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 20px;
   }
-    .slick-slide img {
+  .slick-slide img {
     height: 30vh;
   }
 }
 
 @media only screen and (max-width: 815px) {
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 25px;
     padding-top: 25px;
   }
   .slick-list .slick-track div {
-    height:95vh;
-    margin-top:1vh;
+    height: 95vh;
+    margin-top: 1vh;
   }
   .slick-list {
-    margin-top:4vh;
-    width:100vw;
-    margin-left:0;
+    margin-top: 3vh;
+    width: 100vw;
+    margin-left: 0;
   }
   button.slick-arrow.slick-prev {
-    margin-left:50px;
-    width:100%;
+    margin-left: 50px;
+    width: 100%;
   }
-    .slick-slide img {
-    margin-bottom:0;
+  .slick-slide img {
+    margin-bottom: 0;
   }
 }
 @media only screen and (max-width: 815px) and (orientation: landscape) {
@@ -272,7 +271,12 @@ button.slick-arrow.slick-next {
     font-size: 2vw;
     height: 10px;
   }
-    .slick-slide img {
+  .slick-list {
+    margin-top: 10vh;
+    width: 100vw;
+    margin-left: 0;
+  }
+  .slick-slide img {
     height: 15vh;
     width: 40%;
     margin: auto;
@@ -280,7 +284,8 @@ button.slick-arrow.slick-next {
   .slick-slide img {
     display: none;
   }
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 15px;
     padding-top: 5px;
   }
@@ -295,16 +300,18 @@ button.slick-arrow.slick-next {
   .slick-list .slick-track div {
     height: 100vh;
   }
-  button.slick-arrow.slick-prev, button.slick-arrow.slick-next {
-    margin-top:0;
+  button.slick-arrow.slick-prev,
+  button.slick-arrow.slick-next {
+    margin-top: 0;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  body{
-    overflow:auto;
+  body {
+    overflow: auto;
   }
-  .description, .technology-used {
+  .description,
+  .technology-used {
     font-size: 20px;
   }
   .code-link,
@@ -314,6 +321,6 @@ button.slick-arrow.slick-next {
     z-index: 10;
   }
   .slick-slide img {
-    display:none
+    display: none;
   }
 }

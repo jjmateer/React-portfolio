@@ -1,7 +1,7 @@
 import React from 'react';
 import { Random } from 'react-animated-text';
 
-export default class AnimatedText extends React.Component {
+export default class RandomText extends React.Component {
     constructor(props) {
         super(props);
         this.state = { paused: true, randomNumber: this.randomNumber() };

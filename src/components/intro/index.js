@@ -32,9 +32,9 @@ export default class Intro extends React.Component {
             <AbsoluteWrap>
                 <div id="intro">
                     <h1 className="mainH">Hello, my name is John Mateer.</h1>
-                    <div id="#introp">I am a fast-learning full-stack web developer looking to move up the tech industry.
+                    <div id="introp">I am a fast-learning full-stack web developer looking to move up the tech industry.
                     <br /> Feel free to check out some of my <Link id="highlightedWord" to="/projects">projects</Link>
-                        <br />If you would like to get in <Link id="highlightedWord" to="/contact">contact</Link>, dont hesitate to reach out.</div>
+                        <br />If you would like to get in <Link id="highlightedWord" to="/contact">contact</Link>, don't hesitate to reach out.</div>
                     <h1 id="tsheader" className="mainH"><RandomText text={"Technical Skills"} /></h1>
                     <ul className="tSkills">
                         <div>

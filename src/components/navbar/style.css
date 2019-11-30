@@ -2,7 +2,7 @@
   height: 100vh;
   width: 5vw;
   left: 0;
-  background-color: white;
+  background: #e5e5ee;
   display: flex;
   flex-direction: column;
   border-right: 2px solid black;
@@ -19,7 +19,7 @@
   width: 100% !important;
   height: 110% !important;
   margin-top: -10% !important;
-  background: lightgray !important;
+  background: #e5e5ee !important;
   z-index: 1101 !important;
   position: fixed !important;
 }
@@ -124,7 +124,7 @@ a {
     display: initial;
     height: 5vh;
     width: 100% !important;
-    background: white;
+    background: #e5e5ee;
     position: absolute;
     z-index: 1000;
   }

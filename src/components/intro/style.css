@@ -9,7 +9,9 @@
   padding:5px;
   margin-top:4vh;
 }
-
+#introp{
+  color:#e5e5ee;
+}
 
 .skill, #intro {
   font-size: 3vh;
@@ -19,11 +21,11 @@
 
 #highlightedWord {
   font-weight: bold;
+  color:royalblue;
 }
 
 #highlightedWord:hover {
   font-style:oblique;
-  text-decoration: underline;
 }
 
 .skill {
@@ -31,7 +33,9 @@
   margin:5px;
   border-radius:5px;
 }
-
+span{
+  color:#e5e5ee;
+}
 span:hover {
   cursor: none;
   color:royalblue;

@@ -17,6 +17,7 @@
   text-align: center;
   font-size: 2.5vh;
   height: 5vh;
+  color: #e5e5ee;
 }
 
 .code-link,
@@ -25,7 +26,7 @@
 .demo-linkNA {
   margin: auto;
   border: 2px solid black;
-  background: white;
+  background: #e5e5ee;
   margin-bottom: 20px;
   border-radius: 5%;
   padding: 2px;
@@ -52,7 +53,8 @@
   height: 100%;
   margin: auto;
   width: 99%;
-  background: white;
+  background: #141518;
+  border: 1px solid #e5e5ee;
 }
 
 .description,
@@ -62,6 +64,7 @@
   margin: auto;
   box-sizing: border-box;
   font-size: 2.5vh;
+  color: #e5e5ee;
 }
 
 .slick-slide img {
@@ -230,7 +233,7 @@ button.slick-arrow.slick-next {
     height: 100vh;
   }
   .slick-list {
-    margin-right:0;
+    margin-right: 0;
   }
   .description,
   .technology-used {

@@ -1,4 +1,5 @@
 #fs-frm {
+  margin-top:4vh;
   display: flex;
   flex-direction: column;
 }
@@ -6,7 +7,7 @@
   display: block;
   width: 100%;
   height: 5vh;
-  font-size: 40px;
+  font-size: 3.2vh;
   line-height: 100%;
   text-align: center;
   margin-bottom: 3vh;
@@ -24,13 +25,13 @@
   font-size: 3vh;
   outline: none;
   border: none;
-  border-bottom: solid 2px black;
-  background: transparent;
+  border: solid 2px black;
+  border-radius:5px;
+  background:white;
 }
 #full-name:focus,
 #email-address:focus,
-#message:focus,
-#submitBtn:hover {
+#message:focus {
   transition: 0.35s;
   border-color: royalblue;
 }
@@ -39,7 +40,12 @@
   resize: none;
   border: solid 2px black;
 }
+#submitBtn:hover {
+  transition:0.35s;
+  background:royalblue;
+}
 #submitBtn {
+  background:white;
   display: block;
   width: 25%;
   margin: auto;
@@ -47,37 +53,15 @@
   margin-top: 5vh;
   font-size: 3vh;
   cursor: pointer;
-  background: transparent;
   outline: none;
   border: solid black;
   border-radius: 4px;
 }
 
-@media only screen and (min-width: 2570px) {
-  .contactLabels {
-    font-size: 80px;
-  }
-}
-
-@media only screen and (min-width: 1025px) and (orientation: portrait) {
-  .contactLabels {
-    font-size: 50px;
-  }
-}
-
-@media only screen and (max-width: 813px) {
-  .contactLabels {
-    font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 1025px) and (orientation: landscape) {
-  .contactLabels {
-    font-size: 30px;
-  }
-}
-
 @media only screen and (max-width: 813px) and (orientation: landscape) {
+  #fs-frm {
+    margin-top:13vh;
+  }
   .contactLabels {
     font-size: 15px;
   }

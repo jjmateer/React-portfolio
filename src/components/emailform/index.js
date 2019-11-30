@@ -1,12 +1,13 @@
 import React from "react";
 import AbsoluteWrap from "../absolute-wrap";
+import AnimatedText from "../text-animation";
 import "./style.css";
 
 function EmailForm() {
     return (
         <AbsoluteWrap>
         <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/jj.mateer@live.com" method="post">
-            <h1 className="mainH"> </h1>
+            <h1 className="mainH"><AnimatedText text={"Send me a message!"}/></h1>
             <label className="contactLabels" htmlFor="full-name">Full Name</label>
             <input type="text" name="name" id="full-name" placeholder="First and Last" required></input>
             <label className="contactLabels" htmlFor="email-address">Email Address</label>

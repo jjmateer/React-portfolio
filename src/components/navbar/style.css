@@ -13,7 +13,6 @@
 #topnav {
   height: 80px;
   width: 100%;
-  background-color: gray;
   display: none;
 }
 #hamburger {
@@ -22,12 +21,11 @@
   margin-top: -10% !important;
   background: lightgray !important;
   z-index: 1101 !important;
-  position: absolute !important;
+  position: fixed !important;
 }
 .bm-burger-button button {
-  height: 50px !important;
   width: 100px;
-  background: transparent !important;
+  /* background: white !important; */
   z-index: 1100;
   border-bottom: 2px solid black !important;
 }
@@ -124,9 +122,11 @@ a {
   }
   #topnav {
     display: initial;
-    z-index: 1100;
-    background: transparent;
-    position: static;
+    height: 5vh;
+    width: 100% !important;
+    background: white;
+    position: absolute;
+    z-index: 1000;
   }
   #logo {
     position: Fixed;
@@ -149,5 +149,18 @@ a {
   }
   #hamburger {
     margin-top: -10% !important;
+  }
+}
+@media only screen and (max-width: 813px) and (orientation:landscape) {
+  #topnav {
+    height: 13vh;
+  }
+  .bm-burger-button button {
+    height:13vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #topnav {
+    height: 7vh;
   }
 }

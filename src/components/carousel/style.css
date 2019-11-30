@@ -12,7 +12,7 @@
 }
 
 .slick-list .slick-track div {
-  height: 100vh;
+  height: 99vh;
 }
 
 .project-name {
@@ -22,29 +22,25 @@
 }
 
 .code-link,
-.demo-link {
-  margin: auto;
-  border: solid black;
-  background: white;
-  margin-bottom: 20px;
-  border-radius: 5%;
-  padding: 2px;
-}
-
+.demo-link,
 .code-linkNA,
 .demo-linkNA {
   margin: auto;
-  border: solid black;
+  border:2px solid black;
   background: white;
   margin-bottom: 20px;
   border-radius: 5%;
   padding: 2px;
+  width:40%;
+  text-align:center;
+  font-size:2vh;
 }
 
 .code-link:hover,
 .demo-link:hover {
   transition: 0.35s;
-  border-color: royalblue;
+  background: royalblue;
+  color:white;
 }
 
 #link-container {
@@ -55,18 +51,25 @@
 #project {
   display: flex;
   flex-direction: column;
+  height:99%;
+  width:99%;
+  background:white;
 }
+
+
 
 .description, .technology-used {
   width:90%;
   height:20vh;
   margin:auto;
   box-sizing: border-box;
+  font-size: 2.5vh;
 }
 
   .slick-slide img {
   width: 99%;
   height: 35vh;
+  margin:auto;
   margin-top: 75px;
 }
 button.slick-arrow.slick-next,
@@ -93,14 +96,12 @@ button.slick-arrow.slick-prev {
   background-repeat:no-repeat !important;
   background-size:contain !important;
   margin-left:8vw;
-  margin-top:100px;
 }
 button.slick-arrow.slick-next {
   background: url(./next.svg)  !important;
   background-repeat:no-repeat !important;
   background-size:contain !important;
   margin-right:50px;
-  margin-top:100px;
 }
 @media only screen and (min-width: 2570px) {
   .code-link,
@@ -254,6 +255,7 @@ button.slick-arrow.slick-next {
     margin-top:1vh;
   }
   .slick-list {
+    margin-top:4vh;
     width:100vw;
     margin-left:0;
   }

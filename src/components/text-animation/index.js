@@ -26,7 +26,7 @@ export default class AnimatedText extends React.Component {
                 iterations={1}
                 effectDuration={1.5}
                 effect="verticalFadeIn"
-                effectChange={300}
+                effectChange={150}
                 effectDirection="down"
                 delay={0}
             />

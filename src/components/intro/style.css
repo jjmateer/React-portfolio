@@ -1,16 +1,32 @@
 #intro {
-  width: 80vw;
+  max-width: 80vw;
+  width:auto;
   margin: auto;
   overflow:hidden;
-  height:100vh;
+  height:99vh;
+  word-wrap: break-word;
+  text-align: left;
+  padding:5px;
+  margin-top:4vh;
 }
 
 
 .skill, #intro {
   font-size: 3vh;
   list-style-type: none;
+  text-align:center;
 }
 
+.skill {
+  /* border:1px solid black; */
+  margin:5px;
+  border-radius:5px;
+}
+
+span:hover {
+  cursor: none;
+  color:royalblue;
+}
 .tSkills {
   position: relative;
   height: auto;
@@ -54,8 +70,8 @@
 }
 
 @media only screen and (max-width: 813px) and (orientation: landscape) {
-  #intro,
-  .skill {
+  #intro {
     font-size: 5vh;
+    max-width: 90vw;
   }
 }

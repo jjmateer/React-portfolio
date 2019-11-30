@@ -1,6 +1,7 @@
 import React from "react";
 import AbsoluteWrap from "../absolute-wrap";
 import AnimatedText from "../text-animation";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 export default class Intro extends React.Component {
@@ -19,18 +20,21 @@ export default class Intro extends React.Component {
             { key: 9, skill: 'Heroku' },
             { key: 10, skill: 'Express' },
             { key: 11, skill: 'RESTful API' },
-            { key: 12, skill: 'Bootstrap' },
-            { key: 13, skill: 'jQuery' },
-            { key: 14, skill: 'Axios' },
-            { key: 15, skill: 'AJAX' }
+            { key: 12, skill: 'MVC' },
+            { key: 13, skill: 'Bootstrap' },
+            { key: 14, skill: 'jQuery' },
+            { key: 15, skill: 'Axios' },
+            { key: 16, skill: 'AJAX' }
         ]
     }
     render() {
         return (
             <AbsoluteWrap>
                 <div id="intro">
-                    <h1 className="mainH"><AnimatedText text={"John Mateer"} /></h1>
-                    <div id="#introp"><AnimatedText text={"I am a fast learning web developer based in Roseville, CA. Enjoy using new technology, cooking, and tinkering with computers/cars. Recently completed the UC Davis full-stack coding bootcamp."} /></div>
+                    <h1 className="mainH">Hello, my name is John Mateer.</h1>
+                    <div id="#introp">I am a fast-learning full-stack web developer looking to move up the tech industry.
+                    <br /> Feel free to check out some of my <Link to="/projects">projects</Link>
+                        <br />contact via <Link to="/projects">phone</Link> or <Link to="/contact">email</Link>.</div>
                     <h1 id="tsheader" className="mainH"><AnimatedText text={"Technical Skills"} /></h1>
                     <ul className="tSkills">
                         <div>

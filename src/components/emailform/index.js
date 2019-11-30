@@ -1,18 +1,11 @@
 import React from "react";
 import AbsoluteWrap from "../absolute-wrap";
-import WaveText from "../text-animation/wave-text";
-import TopRandomText from "../text-animation/top-random-text";
 import "./style.css";
 
 function EmailForm() {
     return (
         <AbsoluteWrap>
             <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/jj.mateer@live.com" method="post">
-                <div className="headerCont">
-                    <div className="leftHeader">Phone: <WaveText text={"(503) 915 - 4809"} /></div>
-                    <div className="rightHeader">Email: <WaveText text={"jj.mateer@live.com"} /></div>
-                </div>
-                <h1 className="mainHcontact"><TopRandomText text={"Send me a message!"}/></h1>
                 <label className="contactLabels" htmlFor="full-name">Full Name</label>
                 <input type="text" name="name" id="full-name" placeholder="First and Last" required></input>
                 <label className="contactLabels" htmlFor="email-address">Email Address</label>

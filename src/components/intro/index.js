@@ -34,7 +34,7 @@ export default class Intro extends React.Component {
                     <h1 className="mainH">Hello, my name is John Mateer.</h1>
                     <div id="introp">I am a fast-learning full-stack web developer from Roseville, CA looking to move up the tech industry.
                     <br /> Feel free to check out some of my <Link id="highlightedWord" to="/projects">projects</Link>.
-                    <br />If you would like to get in <Link id="highlightedWord" to="/contact">contact</Link>, please reach out via phone or email.</div>
+                    <br />If you would like to get in contact, send a <Link id="highlightedWord" to="/contact">message</Link> or email me at jj.mateer@live.com. </div>
                     <h1 id="tsheader" className="mainH"><RandomText text={"Technical Skills"} /></h1>
                     <ul className="tSkills">
                         <div>

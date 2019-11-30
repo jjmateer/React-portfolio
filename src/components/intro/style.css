@@ -21,7 +21,7 @@
 
 #highlightedWord {
   font-weight: bold;
-  color:royalblue;
+  color:#2a6da6;
 }
 
 #highlightedWord:hover {
@@ -38,7 +38,7 @@ span{
 }
 span:hover {
   cursor: none;
-  color:royalblue;
+  color:#2a6da6;
 }
 .tSkills {
   position: relative;

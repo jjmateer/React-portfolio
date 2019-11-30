@@ -3,7 +3,7 @@
   width:auto;
   margin: auto;
   overflow:hidden;
-  height:110vh;
+  height:100vh;
   word-wrap: break-word;
   text-align: left;
   padding:5px;
@@ -19,6 +19,11 @@
 
 #highlightedWord {
   font-weight: bold;
+}
+
+#highlightedWord:hover {
+  font-style:oblique;
+  text-decoration: underline;
 }
 
 .skill {
@@ -77,5 +82,10 @@ span:hover {
   #intro {
     font-size: 5vh;
     max-width: 90vw;
+    margin-top:7vh;
+    height:115vh;
+  }
+  .skill {
+    font-size: 5vh;
   }
 }

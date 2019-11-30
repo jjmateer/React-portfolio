@@ -50,7 +50,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin:auto;
+  margin: auto;
   width: 99%;
   background: white;
 }
@@ -195,7 +195,6 @@ button.slick-arrow.slick-next {
     font-size: 50px;
   }
 }
-
 @media only screen and (max-width: 1030px) {
   .slick-slide img {
     margin-top: 0;
@@ -229,10 +228,9 @@ button.slick-arrow.slick-next {
   #project,
   .slick-list {
     height: 100vh;
-    margin: auto;
   }
   .slick-list {
-    margin-left: 5vw;
+    margin-right:0;
   }
   .description,
   .technology-used {

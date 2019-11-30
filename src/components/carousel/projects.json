@@ -34,7 +34,7 @@
         "codelink": "https://github.com/Guhuyan/Project-2",
         "demolink": "https://tranquil-wave-24974.herokuapp.com/",
         "description": "Node-Express application where users can create an account/login, make posts which display on the dashboard, and chat with others. I was assigned to work on the back-end.",
-        "technology": "Technologies used:  MongoDB, MySQL, Sequelize, Express.js, CSS3, Express-Handlebars Express Session, Bcrypt, Socket.io, Node.js.",
+        "technology": "Technologies used:  MongoDB, MySQL, Sequelize, Express.js, CSS3, Express-Handlebars, Express Session, Bcrypt, Socket.io, Node.js.",
         "image": "https://user-images.githubusercontent.com/50982277/68998722-0d8ba580-086b-11ea-8075-dc77c2fe3cc4.png"
     },
     {

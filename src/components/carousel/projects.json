@@ -5,9 +5,9 @@
         "title": "Realtech Storefront",
         "codelink": "https://github.com/jjmateer/Project-3",
         "demolink": "https://sleepy-caverns-29266.herokuapp.com/",
-        "description": "MERN stack  application that allows users can create an account/log in, browse fake inventory, save products to cart, and check out. I was in charge of implementing redux, authentication, and routing.",
+        "description": "MERN stack  application that allows users can create an account/log in, browse fake inventory, save products to cart, and check out. I made the authentication, routing, UI, and implemented redux.",
         "technology": " Technologies used: React.js, MongoDB, Express.js, Node.js, Redux, CSS3, JSON Web Tokens, Bcrypt, React-router, Axios.",
-        "image": "https://user-images.githubusercontent.com/50982277/69692619-77842600-1087-11ea-9693-ed74e74cd917.png"
+        "image": "https://user-images.githubusercontent.com/50982277/69911419-2306e080-13d0-11ea-8dd4-20bf20427cbf.png"
     },
     {
         "id": 4,

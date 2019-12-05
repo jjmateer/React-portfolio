@@ -26,7 +26,8 @@
 .demo-linkNA {
   margin: auto;
   border: 2px solid black;
-  background: #e5e5ee;
+  background: #2a6da6;
+  color: white;
   margin-bottom: 20px;
   border-radius: 5%;
   padding: 5px;
@@ -84,8 +85,7 @@ button.slick-arrow::before {
   cursor: pointer;
   width: 50px !important;
   height: 100px;
-  opacity: 0.8;
-  /* display:none !important; */
+  opacity: 0.4;
 }
 .slick-arrow.slick-next::before,
 .slick-arrow.slick-prev::before {
@@ -328,12 +328,5 @@ button.slick-arrow.slick-next:hover{
   .code-linkNA {
     font-size: 3vh;
     z-index: 10;
-  }
-  .slick-slide img {
-    display: none;
-  }
-  button.slick-arrow.slick-prev,
-  button.slick-arrow.slick-next {
-    margin-top: 12vh;
   }
 }

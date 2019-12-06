@@ -2,15 +2,16 @@
   width:auto;
   margin: 0;
   height:100vh;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
   text-align: left;
   /* transform:rotate(45deg) */
 }
 #introp{
   color:#e5e5ee;
-  border-bottom: solid #e5e5ee;
+  border:none;
   padding:20px;
   box-sizing: border-box;
+  margin-left:5vw;
 }
 #tone1 {
   background:#2a6da6;
@@ -26,7 +27,7 @@
 
 #highlightedWord {
   font-weight: bold;
-  color:#141518;
+  color:white;
 }
 
 #tsheader{
@@ -51,9 +52,10 @@ span:hover {
 .tSkills {
   position: relative;
   height: auto;
-  width: 40vw;
+  width: 95vw;
   display: flex;
   margin: auto;
+  margin-left:5vw;
   padding: auto;
 }
 
@@ -63,8 +65,10 @@ span:hover {
 
 
 @media only screen and (max-width: 1025px) {
-  #introp {
+  #intro {
     margin-left:5vw;
+    overflow-x:hidden;
+    width:95vw;
   }
   .tSkills {
     width: 80vw;
@@ -81,7 +85,8 @@ span:hover {
 
 @media only screen and (max-width: 1030px) and (orientation:landscape) {
   #introp {
-    margin-left:8vw;
+    margin-left:3vw;
+    width:97vw;
   }
   .tSkills {
     width: 80vw;
@@ -109,19 +114,21 @@ span:hover {
   .skill {
     font-size: 20px;
   }
-  .tSkills {
-    margin-bottom:10vh;
-  }
   #introp {
     margin:0;
     width:100vw;
+  }
+  #intro {
+    margin-top:7vh;
   }
 }
 
 @media only screen and (max-width: 813px) and (orientation: landscape) {
   #intro {
     font-size: 5vh;
-    margin-top:10vh;
+    margin-top:13vh;
+    margin-left:0vw;
+    width:100vw;
     height:115vh;
   }
   .skill {

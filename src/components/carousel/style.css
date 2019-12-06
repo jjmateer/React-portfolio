@@ -217,7 +217,7 @@ button.slick-arrow.slick-next:hover {
     margin-left: 9.5vw;
   }
   .project-name {
-    font-size: 20px;
+    font-size: 30px;
     height: 100px;
   }
   .description,
@@ -312,6 +312,7 @@ button.slick-arrow.slick-next:hover {
 
 @media only screen and (max-width: 600px) {
   .project-name {
+    padding-top:10px;
     font-size: 3vh;
   }
   body {

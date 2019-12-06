@@ -20,7 +20,6 @@ export default class Intro extends React.Component {
             { key: 8, skill: 'Git/Github' },
             { key: 6, skill: 'MongoDB' },
             { key: 7, skill: 'MySQL' },
-            { key: 11, skill: 'RESTful API' },
             { key: 12, skill: 'Redux' },
             { key: 15, skill: 'Axios' },
             { key: 16, skill: 'AJAX' }
@@ -31,8 +30,18 @@ export default class Intro extends React.Component {
             <AbsoluteWrap>
                 <div className="intro-container">
                     <h1 className="intro-header">Hello, my name is John Mateer</h1>
-                    <p className="introp">I am a fast-learning full-stack web developer from Roseville, CA looking to move up in the tech industry.
-                    I enjoy problem solving and tackling ambitious projects. </p>
+                    <p className="introp">I am a full-stack web developer from Roseville, CA looking to move up in the tech industry.
+                    I enjoy problem solving and working on ambitious projects.
+                    <br/><br/>Please check out some of my <Link to="/projects" className="highlightedWord">projects</Link> and feel free to send a <Link to="/contact" className="highlightedWord">message</Link> or email me at jj.mateer@live.com. </p>
+                    <h1 className="intro-header">What I work with:</h1>
+                    <div className="tSkills">
+                            {this.state.skillsArr.map(skill => (
+                                <div key={skill.key} className="skill"><RandomText
+                                    text={skill.skill}
+                                />
+                                </div>
+                            ))}
+                    </div>
                 </div>
             </AbsoluteWrap>
 

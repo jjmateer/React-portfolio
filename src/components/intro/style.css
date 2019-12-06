@@ -1,9 +1,9 @@
 .intro-container {
   border:1px solid white;
   width:50vw;
-  height:500px;
+  height:auto;
   margin:auto;
-  margin-top:30vh;
+  margin-top:20vh;
   border-radius:5px;
 }
 
@@ -14,7 +14,106 @@
 
 .introp {
   color:white;
-  font-size:1.2vw;
+  font-size:30px;;
   margin:auto;
   width:95%;
+  text-align:center;
+  border-bottom:1px solid white;
+  padding-bottom:50px;
+}
+.highlightedWord {
+  color: #2a6da6;
+}
+.highlightedWord:hover {
+  font-style: oblique;
+}
+.tSkills {
+  font-size:20px;
+  display:grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  width:50vw;
+  list-style: none;
+  margin-bottom:50px;
+}
+.skill div {
+  text-align: center;
+  height:30px;
+}
+.skill div span {
+  color:white;
+  font-size:25px;
+}
+@media only screen and (max-width: 1030px) and (orientation:portrait) {
+  .intro-header{
+    font-size:40px;
+  }
+  .introp{
+    font-size:30px;
+  }
+  .intro-container{
+    margin-top:15vh;
+    width:50vw;
+  }
+  .skill div span {
+    font-size:25px;
+  }
+}
+@media only screen and (max-width: 1400px) and (orientation:landscape) {
+  .intro-container{
+    margin-top:15vh;
+  }
+}
+@media only screen and (max-width: 1025px) and (orientation:landscape) {
+  .intro-container{
+    margin-top:5vh;
+    width:60vw;
+  }
+  .tSkills{
+    width:60vw;
+  }
+}
+@media only screen and (max-width: 850px) and (orientation:portrait) {
+  .intro-container{
+    margin-top:8vh;
+    width:75vw;
+  }
+  .tSkills{
+    width:75vw;
+  }
+}
+@media only screen and (max-width: 850px) and (orientation:landscape) {
+  .intro-container{
+    width:100vw;
+    margin-top:10vh;
+  }
+  .tSkills{
+    width:100vw;
+  }
+  .skill div span {
+    font-size:20px;
+  }
+  .intro-header{
+    font-size:30px;
+  }
+  .introp{
+    font-size:22.5px;
+    padding-bottom:100px;
+  }
+}
+@media only screen and (max-width: 600px) and (orientation:portrait) {
+  .intro-container{
+    width:100vw;
+  }
+  .tSkills{
+    width:100vw;
+  }
+  .skill div span {
+    font-size:20px;
+  }
+  .intro-header{
+    font-size:30px;
+  }
+  .introp{
+    font-size:22.5px;
+  }
 }

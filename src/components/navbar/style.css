@@ -11,8 +11,8 @@
   position: fixed;
 }
 #topnav {
-
-  width: 101vw;
+  margin:0;
+  width: 100%;
   display: none;
 }
 #hamburger {
@@ -122,7 +122,7 @@ a {
     position: fixed;
     width: auto;
     height: auto;
-    line-height: 110%;
+    line-height: 140%;
     margin-left: 10px;
     position: static;
     z-index: 2000;
@@ -165,13 +165,17 @@ a {
     width:10vw;
     margin-top:3px;
   }
+  #logo{
+    line-height:110%;
+  }
 }
 @media only screen and (max-width: 600px) and (orientation: portrait) {
   #topnav {
     height: 8vh;
   }
   .bm-burger-button {
-    height: 7vh;
+    height: 6.5vh;
+    width:20vw;
     margin-top:3px;
   }
 }

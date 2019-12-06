@@ -39,6 +39,7 @@ class Navbar extends Component {
                 </div >
                 <div id="topnav">
                     <Link id="logo" to="/">jpm</Link>
+                    <div id="mobile-menu-wrap">
                     <Menu noOverlay isOpen={this.state.menuOpen}
                         onStateChange={(state) => this.handleStateChange(state)} id="hamburger">
                         <Link onClick={() => this.toggleMenu()} to="/">About Me</Link>
@@ -48,6 +49,7 @@ class Navbar extends Component {
                         <a onClick={() => this.toggleMenu()} href="https://linkedin.com/in/john-mateer">LinkedIn</a>
                         <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer/React-portfolio/files/3903850/John_Mateer_Resume.pdf">Resume</a>
                     </Menu>
+                    </div>
                 </div >
             </div>
         )

@@ -16,8 +16,6 @@ export default class Intro extends React.Component {
             { key: 5, skill: 'React.js' },
             { key: 10, skill: 'Express.js' },
             { key: 14, skill: 'jQuery' },
-        ],
-        skillsArr2: [
             { key: 9, skill: 'Heroku' },
             { key: 8, skill: 'Git/Github' },
             { key: 6, skill: 'MongoDB' },
@@ -31,31 +29,10 @@ export default class Intro extends React.Component {
     render() {
         return (
             <AbsoluteWrap>
-                <div id="intro">
-                    <div id="tone1">
-                        <h1 className="mainH" style={{ color: "white", paddingTop:30 }}>Hello, my name is John Mateer.</h1>
-                        <div id="introp">I am a full-stack web developer from Roseville, CA, looking to expand my knowledge.</div>
-                        <h1 id="tsheader" className="mainH">What I work with:</h1>
-                    </div>
-                    <ul className="tSkills">
-                        <div>
-                            {this.state.skillsArr.map(skill => (
-                                <li key={skill.key} className="skill"><WaveText
-                                    text={skill.skill}
-                                />
-                                </li>
-                            ))}
-                        </div>
-                        <div>
-                            {this.state.skillsArr2.map(skill => (
-                                <li key={skill.key} className="skill"><WaveText
-                                    text={skill.skill}
-                                />
-                                </li>
-                            ))}
-                        </div>
-                    </ul>
-                    <div id="introp" style={{background:"#2a6da6", marginTop:50}}>If you have any questions feel free to send a <Link id="highlightedWord" to="/contact">message</Link> or email me at jj.mateer@live.com. </div>
+                <div className="intro-container">
+                    <h1 className="intro-header">Hello, my name is John Mateer</h1>
+                    <p className="introp">I am a fast-learning full-stack web developer from Roseville, CA looking to move up in the tech industry.
+                    I enjoy problem solving and tackling ambitious projects. </p>
                 </div>
             </AbsoluteWrap>
 

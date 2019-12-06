@@ -1,141 +1,20 @@
-#intro {
-  width:auto;
-  margin: 0;
-  height:100vh;
-  /* word-wrap: break-word; */
-  text-align: left;
-  /* transform:rotate(45deg) */
-}
-#introp{
-  color:#e5e5ee;
-  border:none;
-  padding:20px;
-  box-sizing: border-box;
-  margin-left:5vw;
-}
-#tone1 {
-  background:#2a6da6;
-  width:100vw;
-  padding:0;
-}
-
-.skill, #intro {
-  font-size: 3vh;
-  list-style-type: none;
-  text-align:center;
-}
-
-#highlightedWord {
-  font-weight: bold;
-  color:white;
-}
-
-#tsheader{
-  background:#141518;
-}
-
-#highlightedWord:hover {
-  font-style:oblique;
-}
-
-.skill {
-  margin:5px;
+.intro-container {
+  border:1px solid white;
+  width:50vw;
+  height:500px;
+  margin:auto;
+  margin-top:30vh;
   border-radius:5px;
 }
-span{
-  color:#e5e5ee;
-}
-span:hover {
-  cursor: none;
-  color:#2a6da6;
-}
-.tSkills {
-  position: relative;
-  height: auto;
-  width: 95vw;
-  display: flex;
-  margin: auto;
-  margin-left:5vw;
-  padding: auto;
+
+.intro-header {
+  color:white;
+  text-align: center;
 }
 
-.tSkills div {
-  margin: auto;
-}
-
-
-@media only screen and (max-width: 1025px) {
-  #intro {
-    margin-left:5vw;
-    overflow-x:hidden;
-    width:95vw;
-  }
-  .tSkills {
-    width: 80vw;
-  }
-  #tsheader {
-    padding-bottom: 50px;
-  }
-}
-@media only screen and (min-width: 1025px) and (orientation: portrait) {
-  .tSkills {
-    width: 75vw;
-  }
-}
-
-@media only screen and (max-width: 1030px) and (orientation:landscape) {
-  #introp {
-    margin-left:3vw;
-    width:97vw;
-  }
-  .tSkills {
-    width: 80vw;
-  }
-  #tsheader {
-    padding-bottom: 50px;
-  }
-}
-@media only screen and (max-width: 813px) and (orientation:portrait) {
-  .tSkills {
-    width: 80vw;
-  }
-  #tsheader {
-    padding: 5px;
-  }
-  #introp, #intro {
-    margin-left:0px;
-    width:100vw;
-  }
-  #intro {
-    margin-top:5vh;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .skill {
-    font-size: 20px;
-  }
-  #introp {
-    margin:0;
-    width:100vw;
-  }
-  #intro {
-    margin-top:7vh;
-  }
-}
-
-@media only screen and (max-width: 813px) and (orientation: landscape) {
-  #intro {
-    font-size: 5vh;
-    margin-top:13vh;
-    margin-left:0vw;
-    width:100vw;
-    height:115vh;
-  }
-  .skill {
-    font-size: 5vh;
-  }
-  #introp {
-    margin-left:0px;
-    width:100vw;
-  }
+.introp {
+  color:white;
+  font-size:1.2vw;
+  margin:auto;
+  width:95%;
 }

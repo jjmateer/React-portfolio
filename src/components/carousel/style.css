@@ -25,7 +25,6 @@
 .code-linkNA,
 .demo-linkNA {
   margin: auto;
-  border: 2px solid black;
   background: #2a6da6;
   color: white;
   margin-bottom: 20px;
@@ -34,13 +33,13 @@
   width: 40%;
   text-align: center;
   font-size: 2vh;
+  opacity: 0.8;
 }
 
 .code-link:hover,
 .demo-link:hover {
   transition: 0.35s;
-  background: #2a6da6;
-  color: white;
+  opacity: 1;
 }
 
 #link-container {
@@ -105,8 +104,8 @@ button.slick-arrow.slick-next {
   margin-right: 50px;
 }
 button.slick-arrow.slick-prev:hover,
-button.slick-arrow.slick-next:hover{
-  opacity:1;
+button.slick-arrow.slick-next:hover {
+  opacity: 1;
 }
 @media only screen and (min-width: 2570px) {
   .code-link,
@@ -312,7 +311,7 @@ button.slick-arrow.slick-next:hover{
 }
 
 @media only screen and (max-width: 600px) {
-  .project-name{
+  .project-name {
     font-size: 3vh;
   }
   body {
@@ -320,7 +319,8 @@ button.slick-arrow.slick-next:hover{
   }
   .description,
   .technology-used {
-    font-size: 3vh;
+    font-size: 2.5vh;
+    height: 35vh;
   }
   .code-link,
   .demo-link,
@@ -328,5 +328,8 @@ button.slick-arrow.slick-next:hover{
   .code-linkNA {
     font-size: 3vh;
     z-index: 10;
+  }
+  .slick-slide img {
+    min-height: 25vh;
   }
 }

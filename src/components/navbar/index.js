@@ -39,7 +39,6 @@ class Navbar extends Component {
                 </div >
                 <div id="topnav">
                     <Link id="logo" to="/">jpm</Link>
-                    <i id="hIcon" className="fa fa-bars" aria-hidden="true"></i>
                     <Menu noOverlay isOpen={this.state.menuOpen}
                         onStateChange={(state) => this.handleStateChange(state)} id="hamburger">
                         <Link onClick={() => this.toggleMenu()} to="/">About Me</Link>

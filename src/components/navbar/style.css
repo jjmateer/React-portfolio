@@ -24,10 +24,17 @@
   position: fixed !important;
 }
 .bm-burger-button button {
-  width: 100px;
-  /* background: white !important; */
-  z-index: 1100;
-  border-bottom: 2px solid black !important;
+  height: 100% !important;
+  margin-left: 90vw !important;
+  position: fixed;
+  max-width: 60px;
+}
+.bm-burger-bars {
+  height: 5px !important;
+  margin-left: 90vw;
+  margin-top: 0.2vh;
+  background: #141518;
+  border-radius: 15%;
 }
 .bm-cross-button button {
   background-image: url(./images/close.svg) !important;
@@ -81,10 +88,6 @@ a {
   text-align: center;
   font-size: 35px;
 }
-
-.bm-burger-bars {
-  display: none !important;
-}
 @media only screen and (min-width: 1025px) and (orientation: portrait) {
   #sidenav {
     width: 8vw;
@@ -128,7 +131,7 @@ a {
     z-index: 1000;
   }
   #logo {
-    position: Fixed;
+    position: fixed;
     width: auto;
     height: auto;
     line-height: 110%;
@@ -136,30 +139,32 @@ a {
     position: static;
     z-index: 2000;
   }
-  #hIcon {
-    position: fixed;
-    right: 0;
-    margin-top: 20px;
-    margin-right: 20px;
-    background-image: "./images/hamburger-icon";
-    z-index: 10;
-    float: right;
-    position: static;
-  }
   #hamburger {
     margin-top: -10% !important;
   }
+  .bm-burger-bars {
+    width: 40px;
+  }
 }
-@media only screen and (max-width: 813px) and (orientation:landscape) {
+@media only screen and (max-width: 813px) and (orientation: landscape) {
   #topnav {
     height: 13vh;
   }
+  .bm-burger-bars,
   .bm-burger-button button {
-    height:13vh;
+    width: 45px;
+    margin-top: 0.5vh;
+    margin-left: 90vw !important;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
   #topnav {
     height: 7vh;
+  }
+  .bm-burger-bars,
+  .bm-burger-button button {
+    width:45px;
+    margin-left: 82vw !important;
+    margin-top: 0.5vh;
   }
 }

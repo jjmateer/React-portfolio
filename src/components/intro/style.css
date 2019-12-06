@@ -106,9 +106,6 @@ span:hover {
   }
 }
 @media only screen and (max-width: 600px) {
-  #intro{
-    padding-top:5.5vh;
-  }
   .skill {
     font-size: 20px;
   }

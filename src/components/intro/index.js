@@ -1,7 +1,6 @@
 import React from "react";
 import AbsoluteWrap from "../absolute-wrap";
 import RandomText from "../text-animation/random-text";
-import WaveText from "../text-animation/wave-text";
 import { Link } from "react-router-dom";
 import "./style.css";
 
@@ -30,17 +29,17 @@ export default class Intro extends React.Component {
             <AbsoluteWrap>
                 <div className="intro-container">
                     <h1 className="intro-header">Hello, my name is John Mateer</h1>
-                    <p className="introp">I am a full-stack web developer from Roseville, CA looking to move up in the tech industry.
-                    I enjoy problem solving and working on ambitious projects.
-                    <br/><br/>Please check out some of my <Link to="/projects" className="highlightedWord">projects</Link> and feel free to send a <Link to="/contact" className="highlightedWord">message</Link> or email me at jj.mateer@live.com. </p>
+                    <p className="introp">I am a web developer specializing in the MERN stack. Recently earned a certificate in full-stack web development at the University of California, Davis. I'm an excellent problem solver
+                    and enjoy working on ambitious projects with meticulous attention to detail. Excited to use my skills as a part of a quality-driven team to create efficient user experiences.
+                    <br /><br />Please check out some of my <Link to="/projects" className="highlightedWord">projects</Link> and feel free to send a <Link to="/contact" className="highlightedWord">message</Link> or email me at jj.mateer@live.com. </p>
                     <h1 className="intro-header">What I work with:</h1>
                     <div className="tSkills">
-                            {this.state.skillsArr.map(skill => (
-                                <div key={skill.key} className="skill"><RandomText
-                                    text={skill.skill}
-                                />
-                                </div>
-                            ))}
+                        {this.state.skillsArr.map(skill => (
+                            <div key={skill.key} className="skill"><RandomText
+                                text={skill.skill}
+                            />
+                            </div>
+                        ))}
                     </div>
                 </div>
             </AbsoluteWrap>

@@ -3,8 +3,9 @@
   width:50vw;
   height:auto;
   margin:auto;
-  margin-top:20vh;
+  margin-top:12.5vh;
   border-radius:5px;
+  background:#141518;
 }
 
 .intro-header {
@@ -41,7 +42,7 @@
 }
 .skill div span {
   color:white;
-  font-size:25px;
+  font-size:30px;
 }
 @media only screen and (max-width: 1030px) and (orientation:portrait) {
   .intro-header{

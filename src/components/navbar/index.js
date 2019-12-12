@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { slide as Menu } from 'react-burger-menu'
+import { scaleRotate as Menu } from 'react-burger-menu'
 import "./style.css";
 
 class Navbar extends Component {
@@ -34,22 +34,11 @@ class Navbar extends Component {
                     <div id="resourceLinks">
                         <a className="fa fa-github" href="https://github.com/jjmateer"> </a>
                         <a className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
-                        <a className="fa fa-file-text" href="https://github.com/jjmateer/React-portfolio/files/3903850/John_Mateer_Resume.pdf"> </a>
+                        <a className="fa fa-file-text" href="https://github.com/jjmateer/React-portfolio-2/files/3951433/John_Mateer_Resume.pdf"> </a>
                     </div>
                 </div >
                 <div id="topnav">
                     <Link id="logo" to="/">jpm</Link>
-                    <div id="mobile-menu-wrap">
-                    <Menu noOverlay isOpen={this.state.menuOpen}
-                        onStateChange={(state) => this.handleStateChange(state)} id="hamburger">
-                        <Link onClick={() => this.toggleMenu()} to="/">About Me</Link>
-                        <Link onClick={() => this.toggleMenu()} to="/projects" >Projects</Link>
-                        <Link onClick={() => this.toggleMenu()} to="/contact" >Contact</Link>
-                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer">GitHub</a>
-                        <a onClick={() => this.toggleMenu()} href="https://linkedin.com/in/john-mateer">LinkedIn</a>
-                        <a onClick={() => this.toggleMenu()} href="https://github.com/jjmateer/React-portfolio/files/3947671/JPM.Resume.pdf">Resume</a>
-                    </Menu>
-                    </div>
                 </div >
             </div>
         )

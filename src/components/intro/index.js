@@ -29,9 +29,8 @@ export default class Intro extends React.Component {
             <AbsoluteWrap>
                 <div className="intro-container">
                     <h1 className="intro-header">Hello, my name is John Mateer</h1>
-                    <p className="introp">Full-stack web developer specializing in the MERN stack. Excellent problem solver and thoroughly enjoy working on
-ambitious projects. Acquired organizational and interpersonal skills in a fast-paced environment as a cook at a leading
-restaurant. Excited to use my newly developed skills to create efficient user experiences.
+                    <p className="introp">Full-stack web developer specializing in the MERN stack. Excellent problem solver and enjoy working on
+                    ambitious projects. Excited to use my newly developed skills to create efficient user experiences.
 
                     <br /><br />Please check out some of my <Link to="/projects" className="highlightedWord">projects</Link> and feel free to send a <Link to="/contact" className="highlightedWord">message</Link> or email me at jj.mateer@live.com. </p>
                     <h1 className="intro-header">What I work with:</h1>

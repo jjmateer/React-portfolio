@@ -7,7 +7,7 @@
         "demolink": "https://sleepy-caverns-29266.herokuapp.com/",
         "description": "MERN stack e-commerce site using mock inventory. Users can sign up/login, browse products by category or name, check out, and view previous orders.",
         "technology": " React.js, MongoDB, Express.js, Node.js, Redux, CSS3, JSON Web Tokens, Bcrypt, React-router, Axios.",
-        "image": "https://user-images.githubusercontent.com/50982277/69911419-2306e080-13d0-11ea-8dd4-20bf20427cbf.png"
+        "image": "https://user-images.githubusercontent.com/50982277/70686680-ea81c500-1c61-11ea-97e0-94dd8c084beb.png"
     },
     {
         "id": 4,

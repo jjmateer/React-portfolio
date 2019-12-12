@@ -34,7 +34,7 @@ class Navbar extends Component {
                     <div id="resourceLinks">
                         <a className="fa fa-github" href="https://github.com/jjmateer"> </a>
                         <a className="fa fa-linkedin" href="https://linkedin.com/in/john-mateer"> </a>
-                        <a className="fa fa-file-text" href="https://github.com/jjmateer/React-portfolio-2/files/3951433/John_Mateer_Resume.pdf"> </a>
+                        <a className="fa fa-file-text" href="https://github.com/jjmateer/React-portfolio/files/3954101/JPMResume.pdf"> </a>
                     </div>
                 </div >
                 <div id="topnav">

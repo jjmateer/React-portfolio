@@ -27,7 +27,7 @@ export default class RandomText extends React.Component {
                 effectDuration={1.5}
                 effect="verticalFadeIn"
                 effectChange={150}
-                effectDirection="down"
+                effectDirection="up"
                 delay={0}
             />
         );
